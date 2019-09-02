@@ -1,0 +1,6 @@
+#surefire
+#Mon Mar 11 14:11:04 CST 2019
+org.uncommons.reportng.escape-output=false
+user.dir=D\:\\java\\Web_Auto_Test
+localRepository=C\:\\Users\\Administrator\\.m2\\repository
+basedir=D\:\\java\\Web_Auto_Test

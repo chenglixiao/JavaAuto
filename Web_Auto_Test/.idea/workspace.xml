@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5fe3deee-219e-46e3-ad11-dc248fd103f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/auto/cases/FileDownload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/auto/cases/LoginCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/auto/cases/LoginFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/auto/cases/WalkingRedEnvelope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/auto/pojo/BaseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/auto/pojo/WalkingRedEnvelopeCreat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/auto/util/Assertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/auto/util/RegexUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/51area.page.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/随行红包.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output" afterDir="true" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/phoenix-interface.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/phoenix-interface.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/auto/cases/ActionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/auto/cases/ActionsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/auto/cases/DataPikerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/auto/cases/DataPikerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/auto/cases/LaunchBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/auto/cases/LaunchBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/auto/cases/RegisterCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/auto/cases/RegisterCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/auto/cases/SelectDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/auto/cases/SelectDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/auto/pojo/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/auto/pojo/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/auto/util/AssertUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/auto/util/AssertUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/auto/util/BaseGetDatasUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/auto/util/GetDatasUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/auto/util/BehaviorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/auto/util/BehaviorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/auto/util/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/auto/util/ExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/auto/util/PropertiesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/auto/util/PropertiesUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/auto/util/RegisterCaseUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/web/auto/util/UILibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web/auto/util/UILibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CaseFilePath.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/FilePath.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/PagesUrl.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/geckodriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/geckodriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/lemon.pages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/web/auto/cases/ActionsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/web/auto/cases/ActionsDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/web/auto/cases/LaunchBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/web/auto/cases/LaunchBrowser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/web/auto/cases/RegisterCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/web/auto/cases/RegisterCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/web/auto/cases/SelectDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/web/auto/cases/SelectDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/web/auto/pojo/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/web/auto/pojo/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/web/auto/util/AssertUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/web/auto/util/AssertUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/web/auto/util/BehaviorUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/web/auto/util/BehaviorUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/web/auto/util/ExcelUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/web/auto/util/ExcelUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/web/auto/util/PropertiesUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/web/auto/util/PropertiesUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/web/auto/util/UILibrary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/web/auto/util/UILibrary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/geckodriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/geckodriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/output.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suites.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="358310813">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="28" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="11" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="4" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="30" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="7" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="176" />
+          <entry key="properties" value="15" />
+          <entry key="xml" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="7" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="176" />
+          <entry key="Properties" value="15" />
+          <entry key="XML" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="class" value="3" />
+          <entry key="dummy" value="18" />
+          <entry key="java" value="5386" />
+          <entry key="properties" value="345" />
+          <entry key="txt" value="68" />
+          <entry key="xml" value="1098" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="5386" />
+          <entry key="PLAIN_TEXT" value="86" />
+          <entry key="Properties" value="345" />
+          <entry key="XML" value="1098" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/pojo/WalkingRedEnvelopeCreat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+                <element signature="e#1024#1025#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#948#949#0" expanded="true" />
+                <element signature="e#994#995#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/51area.page.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/pojo/UIElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/util/ExcelUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-141">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/cases/DataPikerDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/util/UILibrary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-788">
+              <caret line="112" column="35" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/pojo/Register.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-572">
+              <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/pojo/BaseData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <folding>
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="xml" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>errorMsg</find>
+      <find>iStream</find>
+      <find>filePathStream</find>
+      <find>getCaseInfo</find>
+      <find>file</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>expectMsg</replace>
+      <replace>filePathStream</replace>
+      <replace>iStream</replace>
+      <replace>getValueByKey</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/pojo/Page.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/util/VerifyCodeUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/cases/LocationElement.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/cases/OprationWindow.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/cases/ElementOperate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/cases/MultipleWindowDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/cases/ImplicitlyWaitDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/cases/VerificationCodeDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/cases/WebDriverWaitDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/util/ExcelUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/uncommons/reportng/AbstractReporter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/util/ScreenshotUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/report/CustomListener.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/util/AssertUtil.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/util/RegexUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/cases/ActionsDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/cases/SelectDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/pages.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/cases/FileUp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/cases/FileDownload.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/util/Assertion.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/PagesUrl.properties" />
+        <option value="$PROJECT_DIR$/src/test/resources/51area.page.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/cases/LaunchBrowser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/cases/LoginCase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/cases/LoginFirst.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/CaseFilePath.properties" />
+        <option value="$PROJECT_DIR$/src/test/resources/FilePath.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/util/BehaviorUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/util/BaseGetDatasUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/util/RegisterCaseUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/util/GetDatasUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/cases/RegisterCase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/util/PropertiesUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/util/UILibrary.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/cases/WalkingRedEnvelope.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/pojo/Register.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/pojo/BaseData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/pojo/WalkingRedEnvelopeCreat.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/web/auto/cases/DataPikerDemo.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\java\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\java\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Web_Auto_Test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Web_Auto_Test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-42" />
+    <option name="y" value="15" />
+    <option name="width" value="1940" />
+    <option name="height" value="1005" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Web_Auto_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_Auto_Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web_Auto_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_Auto_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web_Auto_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_Auto_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web_Auto_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_Auto_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web_Auto_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_Auto_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web_Auto_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_Auto_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web_Auto_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_Auto_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web_Auto_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_Auto_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="public" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.16503906" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\Web_Auto_Test\src\test\resources" />
+      <recent name="D:\java\Web_Auto_Test\src\test\java\com\web\auto\cases" />
+      <recent name="D:\java\Web_Auto_Test\src\test\java\com\web\auto\util" />
+      <recent name="D:\java\Web_Auto_Test\src\test\java\com\web\auto\pojo" />
+      <recent name="D:\java\Web_Auto_Test\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.web.auto.util" />
+      <recent name="com.web.auto.cases" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java\Web_Auto_Test\src\test\resources" />
+      <recent name="D:\java\Web_Auto_Test\src\test\java\org\uncommons\reportng" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.WalkingRedEnvelopeCreat">
+    <configuration name="PropertiesUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.web.auto.util.PropertiesUtil" />
+      <module name="Web_Auto_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.web.auto.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WalkingRedEnvelopeCreat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.web.auto.pojo.WalkingRedEnvelopeCreat" />
+      <module name="Web_Auto_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.web.auto.pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/java/Web_Auto_Test/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Web_Auto_Test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LaunchBrowser.launchBrowser" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Web_Auto_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.web.auto.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.web.auto.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.web.auto.cases.LaunchBrowser" />
+      <option name="METHOD_NAME" value="launchBrowser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebDriverWaitDemo.webDriverWaitDemo" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Web_Auto_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.web.auto.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.web.auto.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.web.auto.cases.WebDriverWaitDemo" />
+      <option name="METHOD_NAME" value="webDriverWaitDemo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.D:/java/Web_Auto_Test/testng.xml" />
+      <item itemvalue="TestNG.WebDriverWaitDemo.webDriverWaitDemo" />
+      <item itemvalue="TestNG.LaunchBrowser.launchBrowser" />
+      <item itemvalue="Application.PropertiesUtil" />
+      <item itemvalue="Application.WalkingRedEnvelopeCreat" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WalkingRedEnvelopeCreat" />
+        <item itemvalue="TestNG.D:/java/Web_Auto_Test/testng.xml" />
+        <item itemvalue="Application.PropertiesUtil" />
+        <item itemvalue="TestNG.WebDriverWaitDemo.webDriverWaitDemo" />
+        <item itemvalue="TestNG.LaunchBrowser.launchBrowser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\java\Web_Auto_Test" />
+          <option name="myCopyRoot" value="D:\java\Web_Auto_Test" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\java\Web_Auto_Test\.idea" />
+          <option name="myCopyRoot" value="D:\java\Web_Auto_Test\.idea" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\java\Web_Auto_Test" />
+          <option name="myCopyRoot" value="D:\java\Web_Auto_Test" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5fe3deee-219e-46e3-ad11-dc248fd103f3" name="Default Changelist" comment="" />
+      <created>1549969883927</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549969883927</updated>
+      <workItem from="1549969887751" duration="1746000" />
+      <workItem from="1552009849690" duration="31654000" />
+      <workItem from="1552094955019" duration="12633000" />
+      <workItem from="1552125150522" duration="684000" />
+      <workItem from="1552125856764" duration="1426000" />
+      <workItem from="1552127298806" duration="355000" />
+      <workItem from="1552127669427" duration="4348000" />
+      <workItem from="1552133270699" duration="3005000" />
+      <workItem from="1552180154126" duration="5653000" />
+      <workItem from="1552265859955" duration="13368000" />
+      <workItem from="1552282928620" duration="7362000" />
+      <workItem from="1552293048957" duration="3705000" />
+      <workItem from="1552373032016" duration="10290000" />
+      <workItem from="1552396882390" duration="1960000" />
+      <workItem from="1552445597120" duration="4784000" />
+      <workItem from="1552527362145" duration="3943000" />
+      <workItem from="1552716253257" duration="3637000" />
+      <workItem from="1552884474064" duration="2405000" />
+      <workItem from="1552977432448" duration="610000" />
+      <workItem from="1553062750402" duration="3372000" />
+      <workItem from="1553573323841" duration="651000" />
+      <workItem from="1553851348350" duration="4094000" />
+      <workItem from="1553912063012" duration="599000" />
+      <workItem from="1554617037720" duration="5905000" />
+      <workItem from="1554705048538" duration="8514000" />
+      <workItem from="1554785281615" duration="13473000" />
+      <workItem from="1555044791606" duration="643000" />
+      <workItem from="1555984500457" duration="2474000" />
+      <workItem from="1557115571443" duration="12376000" />
+    </task>
+    <task id="LOCAL-00001" summary="修改pom文件properties配置及sure-fire插件版本">
+      <created>1552378168016</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552378168016</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改testng配置">
+      <created>1552381264811</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552381264811</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改testng配置">
+      <created>1552381675560</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552381675560</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="LaunchBrowser_launchBrowser - 2019.04.08 at 20h 42m 04s.xml">
+      <configuration name="LaunchBrowser.launchBrowser" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="WebDriverWaitDemo_webDriverWaitDemo - 2019.04.08 at 20h 43m 05s.xml">
+      <configuration name="WebDriverWaitDemo.webDriverWaitDemo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__java_Web_Auto_Test_testng_xml - 2019.05.06 at 12h 11m 50s.xml">
+      <configuration name="D:/java/Web_Auto_Test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__java_Web_Auto_Test_testng_xml - 2019.05.06 at 12h 13m 50s.xml">
+      <configuration name="D:/java/Web_Auto_Test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__java_Web_Auto_Test_testng_xml - 2019.05.06 at 12h 50m 12s.xml">
+      <configuration name="D:/java/Web_Auto_Test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__java_Web_Auto_Test_testng_xml - 2019.05.06 at 12h 54m 30s.xml">
+      <configuration name="D:/java/Web_Auto_Test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__java_Web_Auto_Test_testng_xml - 2019.05.06 at 12h 55m 34s.xml">
+      <configuration name="D:/java/Web_Auto_Test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__java_Web_Auto_Test_testng_xml - 2019.05.06 at 12h 58m 07s.xml">
+      <configuration name="D:/java/Web_Auto_Test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__java_Web_Auto_Test_testng_xml - 2019.05.06 at 12h 58m 55s.xml">
+      <configuration name="D:/java/Web_Auto_Test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__java_Web_Auto_Test_testng_xml - 2019.05.06 at 12h 59m 51s.xml">
+      <configuration name="D:/java/Web_Auto_Test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="165669000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-42" y="15" width="1940" height="1005" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22340426" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Learn" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297619" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31228474" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39954075" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297619" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3283582" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3283582" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.20531915" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改pom文件properties配置及sure-fire插件版本" />
+    <MESSAGE value="修改testng配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改testng配置" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/Mindjet/MindManager/14/Temp/tmp/LocationElement.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Mindjet/MindManager/14/Temp/tmp/ElementOperate.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Mindjet/MindManager/14/Temp/tmp/ImplicitlyWaitDemo.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Mindjet/MindManager/14/Temp/tmp/SelectDemo.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Mindjet/MindManager/14/Temp/tmp/DataPikerDemo.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Mindjet/MindManager/14/Temp/tmp/CustomListener.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Mindjet/MindManager/14/Temp/tmp/ExcelUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/util/VerifyCodeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="21" column="85" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/util/ScreenshotUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="37" column="71" lean-forward="true" selection-start-line="37" selection-start-column="71" selection-end-line="37" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/util/RegexUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/cases/FileDownload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/cases/OprationWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/cases/ImplicitlyWaitDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/cases/IframeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/util/AssertUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/util/Assertion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/report/CustomListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="42" column="81" selection-start-line="42" selection-start-column="69" selection-end-line="42" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/util/RegisterCaseUtil.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/cases/WebDriverWaitDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1161">
+          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/cases/MultipleWindowDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/cases/ElementOperate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/cases/ActionsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/cases/OperationalNavigationBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/cases/LocationElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/cases/LoginCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/cases/SelectDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="791">
+          <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/FilePath.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/util/PropertiesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="967" column="18" selection-start-line="967" selection-start-column="18" selection-end-line="967" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/cases/LoginFirst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/util/BehaviorUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/lemon.pages.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/cases/WalkingRedEnvelope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="65" lean-forward="true" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/pojo/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/cases/RegisterCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="20" column="88" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="53" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/util/GetDatasUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="43" column="60" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/util/ExcelUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-141">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/pojo/UIElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/pojo/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-572">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/pojo/BaseData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/pojo/WalkingRedEnvelopeCreat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/51area.page.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/util/UILibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-788">
+          <caret line="112" column="35" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repository/org/seleniumhq/selenium/selenium-api/3.9.1/selenium-api-3.9.1.jar!/org/openqa/selenium/JavascriptExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repository/org/seleniumhq/selenium/selenium-api/3.9.1/selenium-api-3.9.1.jar!/org/openqa/selenium/WebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/cases/LaunchBrowser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/web/auto/cases/DataPikerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web_Auto_Test</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.beust:jcommander:1.27</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

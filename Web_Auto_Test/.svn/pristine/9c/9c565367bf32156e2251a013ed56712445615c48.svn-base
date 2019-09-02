@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="register">
+        <classes>
+            <class name="com.web.auto.cases.RegisterCase">
+                <methods>
+                    <include name="positiveRegister"/>
+                    <include name="reverseRegister"/>
+                </methods>
+            </class>
+           <!-- <class name="com.web.auto.cases.WebDriverWaitDemo">
+            </class>-->
+        </classes>
+    </test>
+    <parameter name="browserType" value="firefox"></parameter>
+    <parameter name="DocumentRoot" value="D:\\java\\Web_Auto_Test\\target\\surefire-reports"></parameter>
+    <parameter name="host" value="http://localhost"></parameter>
+    <listeners >
+        <!--实现一个监听器，监听用例执行状态-->
+       <listener class-name="com.web.auto.report.CustomListener"></listener>
+        <!--reportng报表生成类-->
+        <listener class-name="org.uncommons.reportng.HTMLReporter">
+        </listener>
+    </listeners>
+</suite>

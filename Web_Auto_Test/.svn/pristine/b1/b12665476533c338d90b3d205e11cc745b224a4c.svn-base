@@ -1,0 +1,36 @@
+package com.web.auto.util;
+
+import java.lang.reflect.Method;
+import java.util.List;
+
+/**
+ * @ Author：Pada_xiao
+ * @ Date：20:03 2019/3/8
+ * @ Description：取出list集合中的对象及其特定的属性并存入二维数组
+ * @ Modified By：
+ * @Version:
+ */
+public class BaseGetDatasUtil {
+    public static Object[][] getDatas(List<Object> satisfied, String[] cellNames, Class clazz) {
+        Object [][] datas = new Object[satisfied.size()][cellNames.length];
+        for (int i = 0; i < satisfied.size(); i++) {
+            Object caseData = satisfied.get(i);
+            for (int j = 0; j < cellNames.length; j++) {
+                //要反射的方法名
+                String methodName = "get"+cellNames[j];
+                //获取到反射的方法对象
+                Method method;
+                try {
+                    method = clazz.getMethod(methodName);
+                    String value = (String) method.invoke(caseData);
+                    datas[i][j] = value;
+                } catch (Exception e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+            }
+        }
+        return datas;
+    }
+
+}

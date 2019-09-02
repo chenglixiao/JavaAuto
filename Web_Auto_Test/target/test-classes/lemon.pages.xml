@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages>
+    <!-- 定义一个page对象，对应的是web系统中的某个页面-->
+    <page keyword = "注册">
+        <!-- 定义一个UIElement,对应的是页面上的某个元素-->
+        <UIElement keyword = "用户名" by = "id" value = "mobilephone"></UIElement>
+        <UIElement keyword = "密码" by = "id" value = "password"></UIElement>
+        <UIElement keyword = "确认密码" by = "id" value = "pwdconfirm"></UIElement>
+        <UIElement keyword = "验证码" by = "id" value = "verifycode"></UIElement>
+        <UIElement keyword = "注册" by = "id" value = "signup-button"></UIElement>
+        <UIElement keyword = "提示信息" by = "cssSelector" value = "p.tips"></UIElement>
+    </page>
+    <Page keyword="登录页面">
+        <UIElement keyword="手机号" by="id" value="mobilephone"></UIElement>
+        <UIElement keyword="密码" by="id" value="password"></UIElement>
+        <UIElement keyword="登录按钮" by="id" value="login"></UIElement>
+        <UIElement keyword="展示错误信息的元素" by="classname" value="tips"></UIElement>
+    </Page>
+    <Page keyword="首页">
+        <UIElement keyword="老师信息管理" by="id" value="menu-teacher"></UIElement>
+        <UIElement keyword="老师信息" by="linkText" value="老师信息"></UIElement>
+        <UIElement keyword="老师列表页iframe" by="cssSelector" value="iframe[src='teacher-list.html']"></UIElement>
+    </Page>
+    <Page keyword="老师列表页">
+        <UIElement keyword="添加老师" by="partialLinkText" value="添加老师"></UIElement>
+        <UIElement keyword="列表记录数展示区" by="xpath" value="//div[contains(text(),'共')]"></UIElement>
+        <UIElement keyword="添加老师页iframe" by="cssSelector" value="iframe[src='./teacher-edit.html']"></UIElement>
+    </Page>
+    <Page keyword="添加老师页">
+        <UIElement keyword="昵称" by="id" value="nickname"></UIElement>
+        <UIElement keyword="手机号" by="id" value="mobilephone"></UIElement>
+        <UIElement keyword="QQ" by="id" value="qq"></UIElement>
+        <UIElement keyword="性别" by="id" value="sex"></UIElement>
+        <UIElement keyword="生日" by="id" value="birthday"></UIElement>
+        <UIElement keyword="地区" by="id" value="livingPlace"></UIElement>
+        <UIElement keyword="类别" by="id" value="type"></UIElement>
+        <UIElement keyword="保存" by="id" value="save"></UIElement>
+    </Page>
+    <Page keyword="秒杀列表页">
+        <UIElement keyword="" by="" value=""></UIElement>
+        <UIElement keyword="" by="" value=""></UIElement>
+        <UIElement keyword="" by="" value=""></UIElement>
+        <UIElement keyword="" by="" value=""></UIElement>
+        <UIElement keyword="" by="" value=""></UIElement>
+
+    </Page>
+</pages>

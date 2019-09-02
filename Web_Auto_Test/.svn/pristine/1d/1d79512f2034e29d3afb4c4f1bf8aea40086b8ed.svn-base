@@ -1,0 +1,3 @@
+pages.xml.path=src/test/resources/pages.xml
+register.path=src/test/resources/register.xlsx
+register.page=http://47.107.168.87:8087/lmcanon_web_auto/mng/register.html

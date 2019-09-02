@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages>
+    <!-- 定义一个page对象，对应的是web系统中的某个页面-->
+    <page keyword = "注册">
+        <!-- 定义一个UIElement,对应的是页面上的某个元素-->
+        <UIElement keyword = "用户名" by = "id" value = "mobilephone"></UIElement>
+        <UIElement keyword = "密码" by = "id" value = "password"></UIElement>
+        <UIElement keyword = "确认密码" by = "id" value = "pwdconfirm"></UIElement>
+        <UIElement keyword = "验证码" by = "id" value = "verifycode"></UIElement>
+        <UIElement keyword = "注册" by = "id" value = "signup-button"></UIElement>
+        <UIElement keyword = "提示信息" by = "cssSelector" value = "p.tips"></UIElement>
+    </page>
+</pages>

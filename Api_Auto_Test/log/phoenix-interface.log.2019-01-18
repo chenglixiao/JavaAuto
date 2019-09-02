@@ -1,0 +1,143 @@
+2019-01-18 16:17:47 method: com.auto.test.cases.TestProcess.writeDataToEecel(TestProcess.java:42) - [ INFO ]----
+2019-01-18 16:17:47 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:157) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据
+2019-01-18 16:22:15 method: com.auto.test.cases.TestProcess.writeDataToEecel(TestProcess.java:42) - [ INFO ]----
+2019-01-18 16:22:15 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:152) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据
+2019-01-18 16:40:43 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:152) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据
+2019-01-18 16:43:05 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据
+2019-01-18 16:44:10 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:43) - [ INFO ]----获取参数
+2019-01-18 16:44:11 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据
+2019-01-18 16:45:43 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:43) - [ INFO ]----获取参数
+2019-01-18 16:45:43 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据
+2019-01-18 16:46:13 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:43) - [ INFO ]----获取参数
+2019-01-18 16:46:13 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据
+2019-01-18 16:47:34 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:43) - [ INFO ]----获取参数
+2019-01-18 16:47:34 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:45) - [ INFO ]----aa
+2019-01-18 16:47:35 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据
+2019-01-18 16:49:46 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:43) - [ INFO ]----获取参数
+2019-01-18 16:49:46 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:45) - [ INFO ]----aa
+2019-01-18 16:49:46 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据
+2019-01-18 16:52:13 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:43) - [ INFO ]----获取参数
+2019-01-18 16:52:13 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:45) - [ INFO ]----aa
+2019-01-18 16:52:13 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:68) - [ INFO ]----CC
+2019-01-18 16:52:13 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据
+2019-01-18 16:53:20 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:43) - [ INFO ]----获取参数
+2019-01-18 16:53:20 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:45) - [ INFO ]----aa
+2019-01-18 16:53:20 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:68) - [ INFO ]----CC
+2019-01-18 16:53:20 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据
+2019-01-18 16:53:53 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:43) - [ INFO ]----获取参数
+2019-01-18 16:53:53 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:45) - [ INFO ]----aa
+2019-01-18 16:53:53 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:68) - [ INFO ]----CC
+2019-01-18 16:53:53 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据
+2019-01-18 16:55:42 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:43) - [ INFO ]----获取参数
+2019-01-18 16:55:42 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:45) - [ INFO ]----aa
+2019-01-18 16:55:43 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:68) - [ INFO ]----CC
+2019-01-18 16:55:43 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据
+2019-01-18 16:56:08 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:43) - [ INFO ]----获取参数
+2019-01-18 16:56:08 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:45) - [ INFO ]----aa
+2019-01-18 16:56:09 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:68) - [ INFO ]----CC
+2019-01-18 16:56:09 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:72) - [ INFO ]----DD
+2019-01-18 16:56:09 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据
+2019-01-18 16:57:20 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:43) - [ INFO ]----获取参数
+2019-01-18 16:57:20 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:45) - [ INFO ]----aa
+2019-01-18 16:57:20 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:68) - [ INFO ]----CC
+2019-01-18 16:57:20 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:72) - [ INFO ]----1
+2019-01-18 16:57:20 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据
+2019-01-18 16:57:44 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:43) - [ INFO ]----获取参数
+2019-01-18 16:57:44 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:45) - [ INFO ]----aa
+2019-01-18 16:57:45 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:68) - [ INFO ]----CC
+2019-01-18 16:57:45 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:72) - [ INFO ]----1
+2019-01-18 16:57:45 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:74) - [ INFO ]----bb
+2019-01-18 16:57:45 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据
+2019-01-18 16:58:08 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:43) - [ INFO ]----获取参数
+2019-01-18 16:58:08 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:45) - [ INFO ]----aa
+2019-01-18 16:58:08 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:68) - [ INFO ]----CC
+2019-01-18 16:58:08 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:72) - [ INFO ]----1
+2019-01-18 16:58:08 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据
+2019-01-18 16:59:03 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:43) - [ INFO ]----获取参数
+2019-01-18 16:59:03 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:45) - [ INFO ]----aa
+2019-01-18 16:59:03 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:68) - [ INFO ]----CC
+2019-01-18 16:59:03 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:72) - [ INFO ]----1
+2019-01-18 16:59:03 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:74) - [ INFO ]----dd
+2019-01-18 16:59:03 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据
+2019-01-18 17:00:48 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:43) - [ INFO ]----获取参数
+2019-01-18 17:00:48 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:45) - [ INFO ]----aa
+2019-01-18 17:00:49 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:69) - [ INFO ]----CC
+2019-01-18 17:00:49 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:73) - [ INFO ]----1
+2019-01-18 17:00:49 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:75) - [ INFO ]----dd
+2019-01-18 17:00:49 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:77) - [ INFO ]----bb
+2019-01-18 17:00:49 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:73) - [ INFO ]----1
+2019-01-18 17:00:49 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:75) - [ INFO ]----dd
+2019-01-18 17:00:49 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:77) - [ INFO ]----bb
+2019-01-18 17:00:49 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:73) - [ INFO ]----1
+2019-01-18 17:00:49 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:75) - [ INFO ]----dd
+2019-01-18 17:00:49 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:77) - [ INFO ]----bb
+2019-01-18 17:00:49 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:83) - [ INFO ]----BBB
+2019-01-18 17:00:49 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:87) - [ INFO ]----getCaseId
+2019-01-18 17:00:49 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:87) - [ INFO ]----getParams
+2019-01-18 17:00:49 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:87) - [ INFO ]----getExpectedResponseData
+2019-01-18 17:00:49 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:83) - [ INFO ]----BBB
+2019-01-18 17:00:49 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:87) - [ INFO ]----getCaseId
+2019-01-18 17:00:49 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:87) - [ INFO ]----getParams
+2019-01-18 17:00:49 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:87) - [ INFO ]----getExpectedResponseData
+2019-01-18 17:00:49 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:83) - [ INFO ]----BBB
+2019-01-18 17:00:49 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:87) - [ INFO ]----getCaseId
+2019-01-18 17:00:49 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:87) - [ INFO ]----getParams
+2019-01-18 17:00:49 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:87) - [ INFO ]----getExpectedResponseData
+2019-01-18 17:00:49 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据
+2019-01-18 17:05:51 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:43) - [ INFO ]----获取参数
+2019-01-18 17:05:51 method: com.auto.test.cases.TestProcess.caseDatas(TestProcess.java:45) - [ INFO ]----aa
+2019-01-18 17:05:51 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:71) - [ INFO ]----1
+2019-01-18 17:05:51 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:71) - [ INFO ]----1
+2019-01-18 17:05:51 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:71) - [ INFO ]----1
+2019-01-18 17:05:51 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:82) - [ INFO ]----getCaseId
+2019-01-18 17:05:51 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:82) - [ INFO ]----getParams
+2019-01-18 17:05:51 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:82) - [ INFO ]----getExpectedResponseData
+2019-01-18 17:05:51 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:82) - [ INFO ]----getCaseId
+2019-01-18 17:05:51 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:82) - [ INFO ]----getParams
+2019-01-18 17:05:51 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:82) - [ INFO ]----getExpectedResponseData
+2019-01-18 17:05:51 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:82) - [ INFO ]----getCaseId
+2019-01-18 17:05:51 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:82) - [ INFO ]----getParams
+2019-01-18 17:05:51 method: com.auto.test.util.CaseUtil.getCaseInfo(CaseUtil.java:82) - [ INFO ]----getExpectedResponseData
+2019-01-18 17:05:51 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据
+2019-01-18 17:41:06 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据
+2019-01-18 17:42:34 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据
+2019-01-18 17:43:03 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【gettoken】,类型【post】，Url【http://110.185.107.114:60050//uaa/oauth/token】，params【{
+ "grant_type": "password",
+ "username": "",
+ "password": "20036184-e697-400d-a60c-93db5b09dbc0",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}】
+2019-01-18 17:43:03 method: com.auto.test.util.HttpUtil.doServer(HttpUtil.java:59) - [ INFO ]----调用post请求
+2019-01-18 17:43:03 method: com.auto.test.util.HttpUtil.doPost(HttpUtil.java:107) - [ INFO ]----接口请求地址http://110.185.107.114:60050//uaa/oauth/token
+2019-01-18 17:43:04 method: com.auto.test.util.HttpUtil.doPost(HttpUtil.java:134) - [ INFO ]----接口响应报文：code【401】，result【{"timestamp":1547804584897,"status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/oauth/token"}】
+2019-01-18 17:43:04 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果【{"timestamp":1547804584897,"status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/oauth/token"}】
+2019-01-18 17:43:04 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{
+ "grant_type": "password",
+ "username": "b01b1892-acce-46a9-b993-4502d62101bd",
+ "password": "",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}】
+2019-01-18 17:43:04 method: com.auto.test.util.HttpUtil.doServer(HttpUtil.java:59) - [ INFO ]----调用post请求
+2019-01-18 17:43:04 method: com.auto.test.util.HttpUtil.doPost(HttpUtil.java:107) - [ INFO ]----接口请求地址http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-01-18 17:43:05 method: com.auto.test.util.HttpUtil.doPost(HttpUtil.java:134) - [ INFO ]----接口响应报文：code【200】，result【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-18 17:43:05 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-18 17:43:05 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{
+ "grant_type": "password",
+ "username": "b01b1892-acce-46a9-b993-4502d62101bd",
+ "password": "20036184-e697-400d-a60c-93db5b09dbc0",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}】
+2019-01-18 17:43:05 method: com.auto.test.util.HttpUtil.doServer(HttpUtil.java:59) - [ INFO ]----调用post请求
+2019-01-18 17:43:05 method: com.auto.test.util.HttpUtil.doPost(HttpUtil.java:107) - [ INFO ]----接口请求地址http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2019-01-18 17:43:05 method: com.auto.test.util.HttpUtil.doPost(HttpUtil.java:134) - [ INFO ]----接口响应报文：code【302】，result【】
+2019-01-18 17:43:05 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果【】
+2019-01-18 17:43:05 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向文件【src/test/resources/Api_Test_Cases.xlsx】，表单【用例】批量写入数据

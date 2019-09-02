@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="28" passed="28">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="7053" started-at="2019-03-11T05:33:15Z" finished-at="2019-03-11T05:33:22Z">
+    <groups>
+    </groups>
+    <test name="lemon" duration-ms="3054" started-at="2019-03-11T05:33:15Z" finished-at="2019-03-11T05:33:18Z">
+      <class name="com.auto.test.cases.Login">
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.Login@2ef5e5e3]" name="testProcess" duration-ms="81" started-at="2019-03-11T13:33:17Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18813989007","pwd":""}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.Login@2ef5e5e3]" name="testProcess" duration-ms="76" started-at="2019-03-11T13:33:17Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"","pwd":"123456"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.Login@2ef5e5e3]" name="testProcess" duration-ms="92" started-at="2019-03-11T13:33:17Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18813989003","pwd":"123456"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.Login@2ef5e5e3]" name="testProcess" duration-ms="91" started-at="2019-03-11T13:33:17Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18813989007","pwd":"1234567"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.Login@2ef5e5e3]" name="testProcess" duration-ms="92" started-at="2019-03-11T13:33:17Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18813989007","pwd":"123456"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+      </class> <!-- com.auto.test.cases.Login -->
+      <class name="com.auto.test.cases.Resgister">
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.Resgister@4f933fd1]" name="testProcess" duration-ms="1011" started-at="2019-03-11T13:33:15Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18813989007","pwd":""}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.Resgister@4f933fd1]" name="testProcess" duration-ms="77" started-at="2019-03-11T13:33:16Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"","pwd":"123456"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.Resgister@4f933fd1]" name="testProcess" duration-ms="87" started-at="2019-03-11T13:33:16Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"190","pwd":"123456"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.Resgister@4f933fd1]" name="testProcess" duration-ms="76" started-at="2019-03-11T13:33:16Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18813989007","pwd":"12345"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.Resgister@4f933fd1]" name="testProcess" duration-ms="80" started-at="2019-03-11T13:33:16Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18813989007","pwd":"123456"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.Resgister@4f933fd1]" name="testProcess" duration-ms="86" started-at="2019-03-11T13:33:17Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18813989007","pwd":"123456"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+      </class> <!-- com.auto.test.cases.Resgister -->
+      <class name="com.auto.test.cases.Recharge">
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.Recharge@d2cc05a]" name="testProcess" duration-ms="87" started-at="2019-03-11T13:33:17Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"","amount":"10000"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.Recharge@d2cc05a]" name="testProcess" duration-ms="82" started-at="2019-03-11T13:33:17Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18813989007","amount":""}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.Recharge@d2cc05a]" name="testProcess" duration-ms="82" started-at="2019-03-11T13:33:17Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"190","amount":"10000"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.Recharge@d2cc05a]" name="testProcess" duration-ms="107" started-at="2019-03-11T13:33:17Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18813989003","amount":"10000"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.Recharge@d2cc05a]" name="testProcess" duration-ms="87" started-at="2019-03-11T13:33:17Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18813989007","amount":"²âÊÔÎÄ×Ö"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.Recharge@d2cc05a]" name="testProcess" duration-ms="86" started-at="2019-03-11T13:33:18Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18813989007","amount":"-1"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.Recharge@d2cc05a]" name="testProcess" duration-ms="84" started-at="2019-03-11T13:33:18Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18813989007","amount":"510000"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.Recharge@d2cc05a]" name="testProcess" duration-ms="74" started-at="2019-03-11T13:33:18Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18813989007","amount":"10000.001"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.Recharge@d2cc05a]" name="testProcess" duration-ms="110" started-at="2019-03-11T13:33:18Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18813989007","amount":"10000"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+      </class> <!-- com.auto.test.cases.Recharge -->
+    </test> <!-- lemon -->
+    <test name="Í¨³Ôµº" duration-ms="3987" started-at="2019-03-11T05:33:18Z" finished-at="2019-03-11T05:33:22Z">
+      <class name="com.auto.test.cases.GetToken">
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.GetToken@18be83e4]" name="testProcess" duration-ms="65" started-at="2019-03-11T13:33:18Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{
+ "grant_type": "password",
+ "username": "",
+ "password": "20036184-e697-400d-a60c-93db5b09dbc0",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.GetToken@18be83e4]" name="testProcess" duration-ms="35" started-at="2019-03-11T13:33:18Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{
+ "grant_type": "password",
+ "username": "b01b1892-acce-46a9-b993-4502d62101bd",
+ "password": "",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.GetToken@18be83e4]" name="testProcess" duration-ms="96" started-at="2019-03-11T13:33:18Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{
+ "grant_type": "password",
+ "username": "b01b1892-acce-46a9-b993-4502d62101bd",
+ "password": "20036184-e697-400d-a60c-93db5b09dbc0",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="writeDataToEecel()[pri:0, instance:com.auto.test.cases.GetToken@18be83e4]" name="writeDataToEecel" is-config="true" duration-ms="123" started-at="2019-03-11T13:33:22Z" finished-at="2019-03-11T13:33:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeDataToEecel -->
+      </class> <!-- com.auto.test.cases.GetToken -->
+      <class name="com.auto.test.cases.ResisterMember">
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.ResisterMember@cb5822]" name="testProcess" duration-ms="28" started-at="2019-03-11T13:33:18Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{
+ "phoneNum": "",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24",
+ "headImgUrl": "",
+ "nickname": "",
+ "sex": "1",
+ "openId": "",
+ "access_token": " $ {token}"
+}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.ResisterMember@cb5822]" name="testProcess" duration-ms="460" started-at="2019-03-11T13:33:18Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{
+ "phoneNum": "13795858330",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24",
+ "headImgUrl": "",
+ "nickname": "",
+ "sex": "1",
+ "openId": "",
+ "access_token": " ${token}"
+}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.ResisterMember@cb5822]" name="testProcess" duration-ms="1742" started-at="2019-03-11T13:33:19Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{
+ "phoneNum": "${NotBeRegisterMobilephone}",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24",
+ "headImgUrl": "",
+ "nickname": "",
+ "sex": "1",
+ "openId": "",
+ "access_token": " ${token}"
+}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[{"no":"1","sql":"SELECT nickname,phone_num FROM `general_member_info` WHERE phone_num='${NotBeRegisterMobilephone}'"},{"no":"2","sql":"SELECT count(nickname) FROM `general_member_info` WHERE phone_num='${NotBeRegisterMobilephone}'"}]]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[{"no":"1","sql":"SELECT nickname,phone_num FROM `general_member_info` WHERE phone_num='${NotBeRegisterMobilephone}'"},{"no":"2","sql":"SELECT count(nickname) FROM `general_member_info` WHERE phone_num='${NotBeRegisterMobilephone}'"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.ResisterMember@cb5822]" name="testProcess" duration-ms="1530" started-at="2019-03-11T13:33:20Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{
+ "phoneNum": "${RegisteredMobilephone}",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24",
+ "headImgUrl": "",
+ "nickname": "",
+ "sex": "1",
+ "openId": "",
+ "access_token": " ${token}"
+}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[{"no":"1","sql":"SELECT nickname,phone_num FROM `general_member_info` WHERE phone_num='${RegisteredMobilephone}'"},{"no":"2","sql":"SELECT count(nickname) FROM `general_member_info` WHERE phone_num='${RegisteredMobilephone}'"}]]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[{"no":"1","sql":"SELECT nickname,phone_num FROM `general_member_info` WHERE phone_num='${RegisteredMobilephone}'"},{"no":"2","sql":"SELECT count(nickname) FROM `general_member_info` WHERE phone_num='${RegisteredMobilephone}'"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.test.cases.ResisterMember@cb5822]" name="testProcess" duration-ms="29" started-at="2019-03-11T13:33:22Z" data-provider="caseDatas" finished-at="2019-03-11T13:33:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{
+ "phoneNum": "${IncorrectMobilephone}",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24",
+ "headImgUrl": "",
+ "nickname": "",
+ "sex": "1",
+ "openId": "",
+ "access_token": " ${token}"
+}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+      </class> <!-- com.auto.test.cases.ResisterMember -->
+    </test> <!-- Í¨³Ôµº -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

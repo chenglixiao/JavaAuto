@@ -1,0 +1,47 @@
+package com.web.auto.util;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.util.Properties;
+
+/**
+ * @ Author：Pada_xiao
+ * @ Date：22:41 2018/11/27
+ * @ Description：解析propert文件，获取用例文件路径
+ * @ Modified By：
+ * @Version:
+ */
+public class PropertiesUtil {
+    static Properties properties = new Properties();
+    static {
+        InputStream iStream;
+        try {
+            iStream = new FileInputStream(new File("src/test/resources/CaseFilePath.properties"));
+            properties.load(iStream);
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
+    /**
+     * @Author：Pada_xiao
+     * @Description：获取指定用例信息
+     * @Date：23:01 2018/11/27
+     * @Param：[sql,values]
+     * @return：java.lang.String
+     **/
+    public static String getCaseInfo(String key) {
+        String exclePath = null;
+        try {
+            exclePath = properties.getProperty(key);
+        }catch (Exception E){
+            System.out.println("文件找不到");
+        }
+        return exclePath;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(getCaseInfo("register.path"));
+    }
+}

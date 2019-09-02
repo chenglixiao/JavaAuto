@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 8.716 s <<< FAILURE! - in TestSuite
+reverseRegister(com.web.auto.cases.RegisterCase)  Time elapsed: 0.468 s  <<< FAILURE!
+java.lang.AssertionError: expected [验证码输入错误] but found [此手机号已被注册]
+	at com.web.auto.cases.RegisterCase.reverseRegister(RegisterCase.java:25)
+
+positiveRegister(com.web.auto.cases.RegisterCase)  Time elapsed: 0.456 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.web.auto.cases.RegisterCase.positiveRegister(RegisterCase.java:35)
+

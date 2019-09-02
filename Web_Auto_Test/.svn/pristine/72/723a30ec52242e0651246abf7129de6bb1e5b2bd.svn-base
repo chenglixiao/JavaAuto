@@ -1,0 +1,50 @@
+package com.web.auto.util;
+
+import com.web.auto.pojo.Register;
+
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+/**
+ * @ Author：Pada_xiao
+ * @ Date：21:16 2018/11/27
+ * @ Description：实现根据传入参数取出对应的数据
+ * @ Modified By：
+ * @Version:
+ */
+public class RegisterCaseUtil {
+    public static List<Register> registerDatas = null;
+    static{
+        registerDatas = ExcelUtil.load(PropertiesUtil.getCaseInfo("register.path"), "register",Register.class);
+    }
+    /**
+     * @Author：Pada_xiao
+     * @Description：根据传入的参数获取对应用例数据
+     * @Date：19:30 2018/11/28
+     * @Param：[flag,cellNames]
+     * @return：java.lang.Object[][]
+     **/
+    public static Object[][] getDatas(String flag,String [] cellNames) {
+        List<Object> satisfied = registerDatas.stream().filter(registerData -> registerData.getIsNegative().equals(flag)).collect(Collectors.toList());
+      /*  List<Object> satisfied = new ArrayList<Object>();
+        for (Register registerData : registerDatas) {
+            if(flag.equals(registerData.getIsNegative())){
+                satisfied.add(registerData);
+            }
+        }*/
+        Class<Register> clazz = Register.class;
+        return BaseGetDatasUtil.getDatas( satisfied,cellNames, clazz);
+    }
+    public static void main(String[] args) {
+      /*  String [] cellNames = {"MobilePhone","Password","PasswordConfirm","VerifyCode","expectMsg"};
+       Object[][] registerCase = getDatas("0",cellNames);
+        for (Object[] objects : registerCase) {
+            for (Object object : objects) {
+                System.out.print(object);
+            }
+            System.out.println("");
+        }*/
+    }
+}

@@ -1,0 +1,602 @@
+2019-01-21 10:00:44 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":""}】
+2019-01-21 10:00:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:00:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/register】，params【{"mobilephone":"","pwd":"123456"}】
+2019-01-21 10:00:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:00:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/register】，params【{"mobilephone":"190","pwd":"123456"}】
+2019-01-21 10:00:49 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:00:49 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"12345"}】
+2019-01-21 10:00:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:00:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 10:00:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:00:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 10:00:52 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:00:52 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":""}】
+2019-01-21 10:00:53 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:00:53 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/login】，params【{"mobilephone":"","pwd":"123456"}】
+2019-01-21 10:00:54 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:00:54 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989003","pwd":"123456"}】
+2019-01-21 10:00:55 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:00:55 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":"1234567"}】
+2019-01-21 10:00:56 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:00:56 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 10:00:58 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:00:58 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"","amount":"10000"}】
+2019-01-21 10:00:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:00:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":""}】
+2019-01-21 10:01:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:01:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"190","amount":"10000"}】
+2019-01-21 10:01:01 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:01:01 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989003","amount":"10000"}】
+2019-01-21 10:01:02 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:01:02 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"测试文字"}】
+2019-01-21 10:01:03 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:01:03 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"-1"}】
+2019-01-21 10:01:04 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:01:04 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"510000"}】
+2019-01-21 10:01:05 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:01:05 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"10000.001"}】
+2019-01-21 10:01:07 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:01:07 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"10000"}】
+2019-01-21 10:01:08 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:01:08 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050//uaa/oauth/token】，params【】
+2019-01-21 10:01:08 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向【src/test/resources/Api_Test_Cases.xlsx】文件，【用例】表单批量写入数据
+2019-01-21 10:13:44 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":""}】
+2019-01-21 10:13:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:13:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/register】，params【{"mobilephone":"","pwd":"123456"}】
+2019-01-21 10:13:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:13:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/register】，params【{"mobilephone":"190","pwd":"123456"}】
+2019-01-21 10:13:48 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:13:48 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"12345"}】
+2019-01-21 10:13:49 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:13:49 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 10:13:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:13:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 10:13:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:13:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":""}】
+2019-01-21 10:13:52 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:13:52 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/login】，params【{"mobilephone":"","pwd":"123456"}】
+2019-01-21 10:13:53 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:13:53 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989003","pwd":"123456"}】
+2019-01-21 10:13:54 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:13:54 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":"1234567"}】
+2019-01-21 10:13:56 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:13:56 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 10:13:57 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:13:57 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"","amount":"10000"}】
+2019-01-21 10:13:58 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:13:58 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":""}】
+2019-01-21 10:13:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:13:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"190","amount":"10000"}】
+2019-01-21 10:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989003","amount":"10000"}】
+2019-01-21 10:14:01 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:14:01 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"测试文字"}】
+2019-01-21 10:14:02 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:14:02 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"-1"}】
+2019-01-21 10:14:03 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:14:03 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"510000"}】
+2019-01-21 10:14:05 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:14:05 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"10000.001"}】
+2019-01-21 10:14:06 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:14:06 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://119.23.241.154:8080/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"10000"}】
+2019-01-21 10:14:07 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:
+2019-01-21 10:14:07 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050//uaa/oauth/token】，params【】
+2019-01-21 10:14:07 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向【src/test/resources/Api_Test_Cases.xlsx】文件，【用例】表单批量写入数据
+2019-01-21 10:20:49 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":""}】
+2019-01-21 10:20:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 10:20:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"","pwd":"123456"}】
+2019-01-21 10:20:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 10:20:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"190","pwd":"123456"}】
+2019-01-21 10:20:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 10:20:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"12345"}】
+2019-01-21 10:20:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 10:20:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 10:20:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 10:20:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 10:20:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 10:20:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":""}】
+2019-01-21 10:20:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 10:20:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"","pwd":"123456"}】
+2019-01-21 10:20:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 10:20:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989003","pwd":"123456"}】
+2019-01-21 10:20:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 10:20:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":"1234567"}】
+2019-01-21 10:20:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 10:20:50 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 10:20:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 10:20:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"","amount":"10000"}】
+2019-01-21 10:20:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【302】,msg【】
+2019-01-21 10:20:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":""}】
+2019-01-21 10:20:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【302】,msg【】
+2019-01-21 10:20:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"190","amount":"10000"}】
+2019-01-21 10:20:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【302】,msg【】
+2019-01-21 10:20:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050/uaa/oauth/token】，params【{"mobilephone":"18813989003","amount":"10000"}】
+2019-01-21 10:20:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【401】,msg【{"timestamp":1548037251573,"status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/oauth/token"}】
+2019-01-21 10:20:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050/uaa/oauth/token】，params【{"mobilephone":"18813989007","amount":"测试文字"}】
+2019-01-21 10:20:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【401】,msg【{"timestamp":1548037251614,"status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/oauth/token"}】
+2019-01-21 10:20:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050/uaa/oauth/token】，params【{"mobilephone":"18813989007","amount":"-1"}】
+2019-01-21 10:20:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【401】,msg【{"timestamp":1548037251632,"status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/oauth/token"}】
+2019-01-21 10:20:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050/uaa/oauth/token】，params【{"mobilephone":"18813989007","amount":"510000"}】
+2019-01-21 10:20:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【401】,msg【{"timestamp":1548037251651,"status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/oauth/token"}】
+2019-01-21 10:20:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050/uaa/oauth/token】，params【{"mobilephone":"18813989007","amount":"10000.001"}】
+2019-01-21 10:20:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【401】,msg【{"timestamp":1548037251668,"status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/oauth/token"}】
+2019-01-21 10:20:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050/uaa/oauth/token】，params【{"mobilephone":"18813989007","amount":"10000"}】
+2019-01-21 10:20:51 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【401】,msg【{"timestamp":1548037251688,"status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/oauth/token"}】
+2019-01-21 10:20:51 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向【src/test/resources/Api_Test_Cases.xlsx】文件，【用例】表单批量写入数据
+2019-01-21 11:46:15 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":""}】
+2019-01-21 11:46:15 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 11:46:15 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"","pwd":"123456"}】
+2019-01-21 11:46:16 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 11:46:16 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"190","pwd":"123456"}】
+2019-01-21 11:46:16 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 11:46:16 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"12345"}】
+2019-01-21 11:46:16 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 11:46:16 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 11:46:16 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 11:46:16 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 11:46:16 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 11:46:16 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":""}】
+2019-01-21 11:46:16 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 11:46:16 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"","pwd":"123456"}】
+2019-01-21 11:46:16 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 11:46:16 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989003","pwd":"123456"}】
+2019-01-21 11:46:16 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 11:46:16 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":"1234567"}】
+2019-01-21 11:46:16 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 11:46:16 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 11:46:16 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 11:46:16 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"","amount":"10000"}】
+2019-01-21 11:46:16 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【302】,msg【】
+2019-01-21 11:46:16 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":""}】
+2019-01-21 11:46:17 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【302】,msg【】
+2019-01-21 11:46:17 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"190","amount":"10000"}】
+2019-01-21 11:46:17 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【302】,msg【】
+2019-01-21 11:46:17 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989003","amount":"10000"}】
+2019-01-21 11:46:17 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【302】,msg【】
+2019-01-21 11:46:17 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"测试文字"}】
+2019-01-21 11:46:17 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【302】,msg【】
+2019-01-21 11:46:17 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"-1"}】
+2019-01-21 11:46:17 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【302】,msg【】
+2019-01-21 11:46:17 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"510000"}】
+2019-01-21 11:46:17 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【302】,msg【】
+2019-01-21 11:46:17 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"10000.001"}】
+2019-01-21 11:46:17 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【302】,msg【】
+2019-01-21 11:46:17 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"10000"}】
+2019-01-21 11:46:17 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【302】,msg【】
+2019-01-21 11:46:17 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050/uaa/oauth/token】，params【{
+ "grant_type": "password",
+ "username": "",
+ "password": "20036184-e697-400d-a60c-93db5b09dbc0",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}】
+2019-01-21 11:46:17 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【401】,msg【{"timestamp":1548042377818,"status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/oauth/token"}】
+2019-01-21 11:46:17 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050/uaa/oauth/token】，params【{
+ "grant_type": "password",
+ "username": "b01b1892-acce-46a9-b993-4502d62101bd",
+ "password": "",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}】
+2019-01-21 11:46:17 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【401】,msg【{"timestamp":1548042377848,"status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/oauth/token"}】
+2019-01-21 11:46:17 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050/uaa/oauth/token】，params【{
+ "grant_type": "password",
+ "username": "b01b1892-acce-46a9-b993-4502d62101bd",
+ "password": "20036184-e697-400d-a60c-93db5b09dbc0",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}】
+2019-01-21 11:46:17 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【401】,msg【{"timestamp":1548042377873,"status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/oauth/token"}】
+2019-01-21 11:46:17 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向【src/test/resources/Api_Test_Cases.xlsx】文件，【用例】表单批量写入数据
+2019-01-21 11:48:33 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":""}】
+2019-01-21 11:48:34 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}】
+2019-01-21 11:48:34 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"","pwd":"123456"}】
+2019-01-21 11:48:34 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 11:48:34 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"190","pwd":"123456"}】
+2019-01-21 11:48:34 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}】
+2019-01-21 11:48:34 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"12345"}】
+2019-01-21 11:48:34 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}】
+2019-01-21 11:48:34 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 11:48:34 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":1,"code":"10001","data":null,"msg":"注册成功"}】
+2019-01-21 11:48:34 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 11:48:34 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}】
+2019-01-21 11:48:34 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":""}】
+2019-01-21 11:48:34 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}】
+2019-01-21 11:48:34 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"","pwd":"123456"}】
+2019-01-21 11:48:34 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 11:48:34 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989003","pwd":"123456"}】
+2019-01-21 11:48:35 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}】
+2019-01-21 11:48:35 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":"1234567"}】
+2019-01-21 11:48:35 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}】
+2019-01-21 11:48:35 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 11:48:35 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":1,"code":"10001","data":null,"msg":"登录成功"}】
+2019-01-21 11:48:35 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"","amount":"10000"}】
+2019-01-21 11:48:35 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 11:48:35 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":""}】
+2019-01-21 11:48:35 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20115","data":null,"msg":"请输入金额"}】
+2019-01-21 11:48:35 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"190","amount":"10000"}】
+2019-01-21 11:48:35 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}】
+2019-01-21 11:48:35 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989003","amount":"10000"}】
+2019-01-21 11:48:35 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20104","data":null,"msg":"此手机号对应的会员不存在"}】
+2019-01-21 11:48:35 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"测试文字"}】
+2019-01-21 11:48:35 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20118","data":null,"msg":"请输入数字"}】
+2019-01-21 11:48:35 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"-1"}】
+2019-01-21 11:48:35 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20117","data":null,"msg":"请输入范围在0到50万之间的正数金额"}】
+2019-01-21 11:48:35 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"510000"}】
+2019-01-21 11:48:35 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20117","data":null,"msg":"请输入范围在0到50万之间的正数金额"}】
+2019-01-21 11:48:35 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"10000.001"}】
+2019-01-21 11:48:35 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20116","data":null,"msg":"输入金额的金额小数不能超过两位"}】
+2019-01-21 11:48:35 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"10000"}】
+2019-01-21 11:48:36 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"status":1,"code":"10001","data":{"id":1115540,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"18813989007","leaveamount":"10000.00","type":"1","regtime":"2019-01-21 11:48:34.0"},"msg":"充值成功"}】
+2019-01-21 11:48:36 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050/uaa/oauth/token】，params【{
+ "grant_type": "password",
+ "username": "",
+ "password": "20036184-e697-400d-a60c-93db5b09dbc0",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}】
+2019-01-21 11:48:36 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【400】,msg【{"error":"invalid_grant","error_description":"Bad credentials"}】
+2019-01-21 11:48:36 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050/uaa/oauth/token】，params【{
+ "grant_type": "password",
+ "username": "b01b1892-acce-46a9-b993-4502d62101bd",
+ "password": "",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}】
+2019-01-21 11:48:36 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【400】,msg【{"error":"invalid_grant","error_description":"Bad credentials"}】
+2019-01-21 11:48:36 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:35) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050/uaa/oauth/token】，params【{
+ "grant_type": "password",
+ "username": "b01b1892-acce-46a9-b993-4502d62101bd",
+ "password": "20036184-e697-400d-a60c-93db5b09dbc0",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}】
+2019-01-21 11:48:36 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----接口返回结果:code【200】,msg【{"access_token":"5654a532-37ca-487a-b688-596727ee4ed9","token_type":"bearer","expires_in":7199,"scope":"activity"}】
+2019-01-21 11:48:36 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向【src/test/resources/Api_Test_Cases.xlsx】文件，【用例】表单批量写入数据
+2019-01-21 14:52:22 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":""}】
+2019-01-21 14:52:23 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}】
+2019-01-21 14:52:23 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"","pwd":"123456"}】
+2019-01-21 14:52:23 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 14:52:23 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"190","pwd":"123456"}】
+2019-01-21 14:52:23 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}】
+2019-01-21 14:52:23 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"12345"}】
+2019-01-21 14:52:23 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}】
+2019-01-21 14:52:23 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 14:52:23 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}】
+2019-01-21 14:52:23 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 14:52:23 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}】
+2019-01-21 14:52:23 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":""}】
+2019-01-21 14:52:23 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}】
+2019-01-21 14:52:23 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"","pwd":"123456"}】
+2019-01-21 14:52:23 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 14:52:23 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989003","pwd":"123456"}】
+2019-01-21 14:52:23 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}】
+2019-01-21 14:52:23 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":"1234567"}】
+2019-01-21 14:52:23 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}】
+2019-01-21 14:52:23 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 14:52:23 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":1,"code":"10001","data":null,"msg":"登录成功"}】
+2019-01-21 14:52:23 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"","amount":"10000"}】
+2019-01-21 14:52:24 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 14:52:24 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":""}】
+2019-01-21 14:52:24 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20115","data":null,"msg":"请输入金额"}】
+2019-01-21 14:52:24 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"190","amount":"10000"}】
+2019-01-21 14:52:24 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}】
+2019-01-21 14:52:24 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989003","amount":"10000"}】
+2019-01-21 14:52:24 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20104","data":null,"msg":"此手机号对应的会员不存在"}】
+2019-01-21 14:52:24 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"测试文字"}】
+2019-01-21 14:52:24 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20118","data":null,"msg":"请输入数字"}】
+2019-01-21 14:52:24 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"-1"}】
+2019-01-21 14:52:24 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20117","data":null,"msg":"请输入范围在0到50万之间的正数金额"}】
+2019-01-21 14:52:24 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"510000"}】
+2019-01-21 14:52:24 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20117","data":null,"msg":"请输入范围在0到50万之间的正数金额"}】
+2019-01-21 14:52:24 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"10000.001"}】
+2019-01-21 14:52:24 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20116","data":null,"msg":"输入金额的金额小数不能超过两位"}】
+2019-01-21 14:52:24 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"10000"}】
+2019-01-21 14:52:24 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":1,"code":"10001","data":{"id":1115540,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"18813989007","leaveamount":"20000.00","type":"1","regtime":"2019-01-21 11:48:34.0"},"msg":"充值成功"}】
+2019-01-21 14:52:24 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050/uaa/oauth/token】，params【{
+ "grant_type": "password",
+ "username": "",
+ "password": "20036184-e697-400d-a60c-93db5b09dbc0",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}】
+2019-01-21 14:52:24 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【400】,msg【{"error":"invalid_grant","error_description":"Bad credentials"}】
+2019-01-21 14:52:24 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050/uaa/oauth/token】，params【{
+ "grant_type": "password",
+ "username": "b01b1892-acce-46a9-b993-4502d62101bd",
+ "password": "",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}】
+2019-01-21 14:52:24 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【400】,msg【{"error":"invalid_grant","error_description":"Bad credentials"}】
+2019-01-21 14:52:24 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050/uaa/oauth/token】，params【{
+ "grant_type": "password",
+ "username": "b01b1892-acce-46a9-b993-4502d62101bd",
+ "password": "20036184-e697-400d-a60c-93db5b09dbc0",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}】
+2019-01-21 14:52:25 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"access_token":"d7b2e31d-a1fd-406e-9189-c02bf7bc7103","token_type":"bearer","expires_in":7199,"scope":"activity"}】
+2019-01-21 14:52:25 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【registerMember】,类型【post】，Url【http://110.185.107.114:60050/openapi/member/register】，params【{
+ "phoneNum": "13795858330",
+ "appKey": " 5327e39 ea24f - 549 a - 4 a8d - a2d1 - 4e e2d78e2a24",
+ "headImgUrl": "",
+ "nickname": "",
+ "sex": " 1",
+ "openId": "",
+ "access_token": " $ {token}"
+}】
+2019-01-21 14:52:25 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"returnCode":40002,"returnMessage":"未查询到品牌信息"}】
+2019-01-21 14:52:25 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【registerMember】,类型【post】，Url【http://110.185.107.114:60050/openapi/member/register】，params【{
+ "phoneNum": "13795858330",
+ "appKey": " 5327e39 ea24f - 549 a - 4 a8d - a2d1 - 4e e2d78e2a24",
+ "headImgUrl": "",
+ "nickname": "",
+ "sex": " 1",
+ "openId": "",
+ "access_token": " $ {token}"
+}】
+2019-01-21 14:52:25 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"returnCode":40002,"returnMessage":"未查询到品牌信息"}】
+2019-01-21 14:52:25 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【registerMember】,类型【post】，Url【http://110.185.107.114:60050/openapi/member/register】，params【{
+ "phoneNum": "13795858333",
+ "appKey": " 5327e39 ea24f - 549 a - 4 a8d - a2d1 - 4e e2d78e2a24",
+ "headImgUrl": "",
+ "nickname": "",
+ "sex": " 1",
+ "openId": "",
+ "access_token": " $ {token}"
+}】
+2019-01-21 14:52:25 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"returnCode":40002,"returnMessage":"未查询到品牌信息"}】
+2019-01-21 14:52:25 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向【src/test/resources/Api_Test_Cases.xlsx】文件，【用例】表单批量写入数据
+2019-01-21 15:06:44 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:44 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":""}】
+2019-01-21 15:06:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}】
+2019-01-21 15:06:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"","pwd":"123456"}】
+2019-01-21 15:06:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 15:06:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"190","pwd":"123456"}】
+2019-01-21 15:06:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}】
+2019-01-21 15:06:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"12345"}】
+2019-01-21 15:06:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}】
+2019-01-21 15:06:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 15:06:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}】
+2019-01-21 15:06:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 15:06:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}】
+2019-01-21 15:06:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":""}】
+2019-01-21 15:06:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}】
+2019-01-21 15:06:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:45 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"","pwd":"123456"}】
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989003","pwd":"123456"}】
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}】
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":"1234567"}】
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}】
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"status":1,"code":"10001","data":null,"msg":"登录成功"}】
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"","amount":"10000"}】
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":""}】
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20115","data":null,"msg":"请输入金额"}】
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"190","amount":"10000"}】
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}】
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989003","amount":"10000"}】
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20104","data":null,"msg":"此手机号对应的会员不存在"}】
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"测试文字"}】
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20118","data":null,"msg":"请输入数字"}】
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"-1"}】
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20117","data":null,"msg":"请输入范围在0到50万之间的正数金额"}】
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"510000"}】
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20117","data":null,"msg":"请输入范围在0到50万之间的正数金额"}】
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:46 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"10000.001"}】
+2019-01-21 15:06:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20116","data":null,"msg":"输入金额的金额小数不能超过两位"}】
+2019-01-21 15:06:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"10000"}】
+2019-01-21 15:06:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"status":1,"code":"10001","data":{"id":1115540,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"18813989007","leaveamount":"30000.00","type":"1","regtime":"2019-01-21 11:48:34.0"},"msg":"充值成功"}】
+2019-01-21 15:06:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050/uaa/oauth/token】，params【{
+ "grant_type": "password",
+ "username": "",
+ "password": "20036184-e697-400d-a60c-93db5b09dbc0",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}】
+2019-01-21 15:06:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【400】,msg【{"error":"invalid_grant","error_description":"Bad credentials"}】
+2019-01-21 15:06:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050/uaa/oauth/token】，params【{
+ "grant_type": "password",
+ "username": "b01b1892-acce-46a9-b993-4502d62101bd",
+ "password": "",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}】
+2019-01-21 15:06:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【400】,msg【{"error":"invalid_grant","error_description":"Bad credentials"}】
+2019-01-21 15:06:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050/uaa/oauth/token】，params【{
+ "grant_type": "password",
+ "username": "b01b1892-acce-46a9-b993-4502d62101bd",
+ "password": "20036184-e697-400d-a60c-93db5b09dbc0",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}】
+2019-01-21 15:06:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"access_token":"d7b2e31d-a1fd-406e-9189-c02bf7bc7103","token_type":"bearer","expires_in":6337,"scope":"activity"}】
+2019-01-21 15:06:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【registerMember】,类型【post】，Url【http://110.185.107.114:60050/openapi/member/register】，params【{
+ "phoneNum": "13795858330",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24",
+ "headImgUrl": "",
+ "nickname": "",
+ "sex": " 1",
+ "openId": "",
+ "access_token": " $ {token}"
+}】
+2019-01-21 15:06:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"returnCode":50064,"returnMessage":"性别参数错误"}】
+2019-01-21 15:06:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【registerMember】,类型【post】，Url【http://110.185.107.114:60050/openapi/member/register】，params【{
+ "phoneNum": "13795858330",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24",
+ "headImgUrl": "",
+ "nickname": "",
+ "sex": " 1",
+ "openId": "",
+ "access_token": " $ {token}"
+}】
+2019-01-21 15:06:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"returnCode":50064,"returnMessage":"性别参数错误"}】
+2019-01-21 15:06:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:31) - [ INFO ]----将参数中的token替换成有效token
+2019-01-21 15:06:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:37) - [ INFO ]----调用接口：接口名称【registerMember】,类型【post】，Url【http://110.185.107.114:60050/openapi/member/register】，params【{
+ "phoneNum": "13795858333",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24",
+ "headImgUrl": "",
+ "nickname": "",
+ "sex": " 1",
+ "openId": "",
+ "access_token": " $ {token}"
+}】
+2019-01-21 15:06:47 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:39) - [ INFO ]----接口返回结果:code【200】,msg【{"returnCode":50064,"returnMessage":"性别参数错误"}】
+2019-01-21 15:06:47 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向【src/test/resources/Api_Test_Cases.xlsx】文件，【用例】表单批量写入数据
+2019-01-21 15:13:58 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":""}】
+2019-01-21 15:13:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}】
+2019-01-21 15:13:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"","pwd":"123456"}】
+2019-01-21 15:13:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 15:13:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"190","pwd":"123456"}】
+2019-01-21 15:13:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}】
+2019-01-21 15:13:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"12345"}】
+2019-01-21 15:13:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}】
+2019-01-21 15:13:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 15:13:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}】
+2019-01-21 15:13:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【register】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/register】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 15:13:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}】
+2019-01-21 15:13:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":""}】
+2019-01-21 15:13:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}】
+2019-01-21 15:13:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"","pwd":"123456"}】
+2019-01-21 15:13:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 15:13:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989003","pwd":"123456"}】
+2019-01-21 15:13:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}】
+2019-01-21 15:13:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":"1234567"}】
+2019-01-21 15:13:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}】
+2019-01-21 15:13:59 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【login】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/login】，params【{"mobilephone":"18813989007","pwd":"123456"}】
+2019-01-21 15:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":1,"code":"10001","data":null,"msg":"登录成功"}】
+2019-01-21 15:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"","amount":"10000"}】
+2019-01-21 15:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}】
+2019-01-21 15:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":""}】
+2019-01-21 15:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20115","data":null,"msg":"请输入金额"}】
+2019-01-21 15:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"190","amount":"10000"}】
+2019-01-21 15:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}】
+2019-01-21 15:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989003","amount":"10000"}】
+2019-01-21 15:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20104","data":null,"msg":"此手机号对应的会员不存在"}】
+2019-01-21 15:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"测试文字"}】
+2019-01-21 15:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20118","data":null,"msg":"请输入数字"}】
+2019-01-21 15:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"-1"}】
+2019-01-21 15:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20117","data":null,"msg":"请输入范围在0到50万之间的正数金额"}】
+2019-01-21 15:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"510000"}】
+2019-01-21 15:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20117","data":null,"msg":"请输入范围在0到50万之间的正数金额"}】
+2019-01-21 15:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"10000.001"}】
+2019-01-21 15:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":0,"code":"20116","data":null,"msg":"输入金额的金额小数不能超过两位"}】
+2019-01-21 15:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【recharge】,类型【post】，Url【http://test.lemonban.com/futureloan/mvc/api/member/recharge】，params【{"mobilephone":"18813989007","amount":"10000"}】
+2019-01-21 15:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"status":1,"code":"10001","data":{"id":1115540,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"18813989007","leaveamount":"40000.00","type":"1","regtime":"2019-01-21 11:48:34.0"},"msg":"充值成功"}】
+2019-01-21 15:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050/uaa/oauth/token】，params【{
+ "grant_type": "password",
+ "username": "",
+ "password": "20036184-e697-400d-a60c-93db5b09dbc0",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}】
+2019-01-21 15:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【400】,msg【{"error":"invalid_grant","error_description":"Bad credentials"}】
+2019-01-21 15:14:00 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050/uaa/oauth/token】，params【{
+ "grant_type": "password",
+ "username": "b01b1892-acce-46a9-b993-4502d62101bd",
+ "password": "",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}】
+2019-01-21 15:14:01 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【400】,msg【{"error":"invalid_grant","error_description":"Bad credentials"}】
+2019-01-21 15:14:01 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【getToken】,类型【post】，Url【http://110.185.107.114:60050/uaa/oauth/token】，params【{
+ "grant_type": "password",
+ "username": "b01b1892-acce-46a9-b993-4502d62101bd",
+ "password": "20036184-e697-400d-a60c-93db5b09dbc0",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}】
+2019-01-21 15:14:01 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"access_token":"d7b2e31d-a1fd-406e-9189-c02bf7bc7103","token_type":"bearer","expires_in":5903,"scope":"activity"}】
+2019-01-21 15:14:01 method: com.auto.test.util.HttpUtil.replaceToken(HttpUtil.java:200) - [ INFO ]----Map中的token替换到token变量
+2019-01-21 15:14:01 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【registerMember】,类型【post】，Url【http://110.185.107.114:60050/openapi/member/register】，params【{
+ "phoneNum": "",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24",
+ "headImgUrl": "",
+ "nickname": "",
+ "sex": "1",
+ "openId": "",
+ "access_token": " $ {token}"
+}】
+2019-01-21 15:14:01 method: com.auto.test.util.HttpUtil.replaceToken(HttpUtil.java:200) - [ INFO ]----Map中的token替换到token变量
+2019-01-21 15:14:01 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"returnCode":40016,"returnMessage":"手机号码为空或appKey为空"}】
+2019-01-21 15:14:01 method: com.auto.test.util.HttpUtil.replaceToken(HttpUtil.java:200) - [ INFO ]----Map中的token替换到token变量
+2019-01-21 15:14:01 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【registerMember】,类型【post】，Url【http://110.185.107.114:60050/openapi/member/register】，params【{
+ "phoneNum": "13795858330",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24",
+ "headImgUrl": "",
+ "nickname": "",
+ "sex": "1",
+ "openId": "",
+ "access_token": " $ {token}"
+}】
+2019-01-21 15:14:01 method: com.auto.test.util.HttpUtil.replaceToken(HttpUtil.java:200) - [ INFO ]----Map中的token替换到token变量
+2019-01-21 15:14:01 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"returnCode":-1,"returnMessage":"此手机号已被注册"}】
+2019-01-21 15:14:01 method: com.auto.test.util.HttpUtil.replaceToken(HttpUtil.java:200) - [ INFO ]----Map中的token替换到token变量
+2019-01-21 15:14:01 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:36) - [ INFO ]----调用接口：接口名称【registerMember】,类型【post】，Url【http://110.185.107.114:60050/openapi/member/register】，params【{
+ "phoneNum": "13795858339",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24",
+ "headImgUrl": "",
+ "nickname": "",
+ "sex": "1",
+ "openId": "",
+ "access_token": " $ {token}"
+}】
+2019-01-21 15:14:01 method: com.auto.test.util.HttpUtil.replaceToken(HttpUtil.java:200) - [ INFO ]----Map中的token替换到token变量
+2019-01-21 15:14:02 method: com.auto.test.cases.TestProcess.testProcess(TestProcess.java:38) - [ INFO ]----接口返回结果:code【200】,msg【{"returnCode":0,"returnMessage":"注册成功"}】
+2019-01-21 15:14:02 method: com.auto.test.util.ExcelUtil.batchWriteBackDatas(ExcelUtil.java:151) - [ INFO ]----向【src/test/resources/Api_Test_Cases.xlsx】文件，【用例】表单批量写入数据

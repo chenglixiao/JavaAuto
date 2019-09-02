@@ -1,0 +1,41 @@
+package com.auto.test.util;
+
+import com.alibaba.fastjson.JSONObject;
+import com.auto.test.pojo.DBCheck;
+import com.auto.test.pojo.DBCheckResult;
+import org.apache.log4j.Logger;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+
+/**
+ * @ Author：Pada_xiao
+ * @ Date：15:46 2019/1/24
+ * @ Description：
+ * @ Modified By：
+ * @Version:
+ */
+public class DBChekUtil {
+    final  static Logger LOGGER = Logger.getLogger(DBChekUtil.class);
+    public static String dbCheck(String string){
+        List<DBCheck>  dbChecks = JSONObject.parseArray(string,DBCheck.class);
+        List<DBCheckResult> dbCheckResultLists = new ArrayList<DBCheckResult>();
+        if(dbChecks!=null) {
+            for (DBCheck dbCheck : dbChecks) {
+                String no = dbCheck.getNo();
+                String sql = dbCheck.getSql();
+                List<Map> selectReslutList = JDBCUtil.selectDatabase(sql);
+                DBCheckResult dbCheckResult = new DBCheckResult(no, selectReslutList);
+                dbCheckResultLists.add(dbCheckResult);
+            }
+        }
+        return JSONObject.toJSONString(dbCheckResultLists);
+    }
+
+    public static void main(String[] args) {
+        dbCheck("[{\"no\":\"1\",\"sql\":\"SELECT nickname,phone_num FROM `general_member_info` WHERE phone_num='13508634523'\"},{\"no\":\"2\"," +
+                "\"sql\":\"SELECT count(nickname) FROM `general_member_info` WHERE phone_num='13508634523'\"}]");
+    }
+}

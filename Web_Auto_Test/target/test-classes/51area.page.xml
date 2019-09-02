@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages>
+    <page keyword="登录">
+    <uiElement keyword ="用户名" by="id" value="username" />
+    <uiElement keyword ="密码" by="id" value="password" />
+    <uiElement keyword ="登录" by="id" value="btn-submit" />
+    </page>
+    <page keyword="随行红包列表页" >
+        <uiElement keyword="返回" by="xpath" value="//*[@class='return-link']/a" />
+        <uiElement keyword="新建活动" by="xpath" value="//*[text()='新建活动']"/>
+        <uiElement keyword="活动列表" by="tagName" value="table"/>
+    </page >
+    <page keyword="新建活动页面">
+        <uiElement keyword="活动主题" by="xpath" value="//form/div/div/div/div/input"/>
+        <uiElement keyword="" by="" value=""/>
+        <uiElement keyword="" by="" value=""/>
+        <uiElement keyword="" by="" value=""/>
+        <uiElement keyword="" by="" value=""/>
+        <uiElement keyword="" by="" value=""/>
+    </page>
+</pages>

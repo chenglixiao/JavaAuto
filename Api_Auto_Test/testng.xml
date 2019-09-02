@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="lemon">
+        <classes>
+            <class name="com.auto.test.cases.Resgister" />
+            <class name="com.auto.test.cases.Login" />
+            <class name="com.auto.test.cases.Recharge" />
+        </classes>
+    </test><test verbose="2" preserve-order="true" name="通吃岛">
+        <classes>
+            <class name="com.auto.test.cases.GetToken" />
+            <class name="com.auto.test.cases.ResisterMember" />
+        </classes>
+    </test>
+</suite>

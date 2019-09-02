@@ -1,0 +1,55 @@
+package com.web.auto.util;
+
+import com.web.auto.cases.LaunchBrowser;
+import org.apache.log4j.Logger;
+import org.openqa.selenium.WebElement;
+
+/**
+ * @ Author：Pada_xiao
+ * @ Date：21:41 2019/3/8
+ * @ Description：
+ * @ Modified By：
+ * @Version:
+ */
+public class BehaviorUtil {
+    private final static Logger LOGGER = Logger.getLogger(BehaviorUtil.class);
+    public static void interview(String url) {
+        LOGGER.info("访问页面" + url );
+        try {
+            LaunchBrowser.driver.get(PropertiesUtil.getCaseInfo(url));
+        } catch (Exception e) {
+            LOGGER.info("url不能为空");
+            e.printStackTrace();
+        }
+    }
+
+    public static void input(String pageKeyword, String uiElementKeyword, String string) {
+        LOGGER.info("【" + pageKeyword + "】页面输入【" + uiElementKeyword + "：" + string+"】");
+        try {
+            UILibrary.getElementByKeyWord(pageKeyword, uiElementKeyword).sendKeys(string);
+        } catch (Exception e) {
+            LOGGER.info("元素不能为空");
+            e.printStackTrace();
+        }
+    }
+
+    public static void click(String pageKeyword, String uiElementKeyword) {
+        LOGGER.info("【" + pageKeyword + "】页面点击【" + uiElementKeyword + "】按钮");
+        try {
+            UILibrary.getElementByKeyWord(pageKeyword, uiElementKeyword).click();
+        } catch (Exception e) {
+            LOGGER.info("元素不能为空");
+            e.printStackTrace();
+        }
+    }
+    public static String getText(String pageKeyword, String uiElementKeyword) {
+        LOGGER.info("【" + pageKeyword + "】页面获取【" + uiElementKeyword + "】");
+        try {
+            return UILibrary.getElementByKeyWord(pageKeyword, uiElementKeyword).getText();
+        } catch (Exception e) {
+            LOGGER.info("元素不能为空");
+            e.printStackTrace();
+        }
+        return null;
+    }
+}

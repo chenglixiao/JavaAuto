@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-All_Test_Suite">
+              <span class="suite-name border-passed">All Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-All_Test_Suite">
+                    <span>D:\java\Api_Auto_Test\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-All_Test_Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-All_Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-All_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-All_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-All_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-All_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods passed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods passed suite-All_Test_Suite"> (show)</a> <!-- show-methods passed suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.Resgister" hash-for-method="testProcess(1, 4, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;pwd&quot;:&quot;12345&quot;}, , )">testProcess(1, 4, {"mobilephone":"18813989007","pwd":"12345"}, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.Resgister" hash-for-method="testProcess(1, 1, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;pwd&quot;:&quot;&quot;}, , )">testProcess(1, 1, {"mobilephone":"18813989007","pwd":""}, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.Recharge" hash-for-method="testProcess(3, 15, {&quot;mobilephone&quot;:&quot;18813989003&quot;,&quot;amount&quot;:&quot;10000&quot;}, , )">testProcess(3, 15, {"mobilephone":"18813989003","amount":"10000"}, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.Recharge" hash-for-method="testProcess(3, 19, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;amount&quot;:&quot;10000.001&quot;}, , )">testProcess(3, 19, {"mobilephone":"18813989007","amount":"10000.001"}, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.Recharge" hash-for-method="testProcess(3, 16, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;amount&quot;:&quot;≤‚ ‘Œƒ◊÷&quot;}, , )">testProcess(3, 16, {"mobilephone":"18813989007","amount":"≤‚ ‘Œƒ◊÷"}, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.Resgister" hash-for-method="testProcess(1, 2, {&quot;mobilephone&quot;:&quot;&quot;,&quot;pwd&quot;:&quot;123456&quot;}, , )">testProcess(1, 2, {"mobilephone":"","pwd":"123456"}, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.Recharge" hash-for-method="testProcess(3, 14, {&quot;mobilephone&quot;:&quot;190&quot;,&quot;amount&quot;:&quot;10000&quot;}, , )">testProcess(3, 14, {"mobilephone":"190","amount":"10000"}, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.Login" hash-for-method="testProcess(2, 7, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;pwd&quot;:&quot;&quot;}, , )">testProcess(2, 7, {"mobilephone":"18813989007","pwd":""}, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.Resgister" hash-for-method="testProcess(1, 6, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;pwd&quot;:&quot;123456&quot;}, , )">testProcess(1, 6, {"mobilephone":"18813989007","pwd":"123456"}, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.Recharge" hash-for-method="testProcess(3, 17, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;amount&quot;:&quot;-1&quot;}, , )">testProcess(3, 17, {"mobilephone":"18813989007","amount":"-1"}, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.Resgister" hash-for-method="testProcess(1, 5, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;pwd&quot;:&quot;123456&quot;}, , )">testProcess(1, 5, {"mobilephone":"18813989007","pwd":"123456"}, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.Login" hash-for-method="testProcess(2, 9, {&quot;mobilephone&quot;:&quot;18813989003&quot;,&quot;pwd&quot;:&quot;123456&quot;}, , )">testProcess(2, 9, {"mobilephone":"18813989003","pwd":"123456"}, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.Resgister" hash-for-method="testProcess(1, 3, {&quot;mobilephone&quot;:&quot;190&quot;,&quot;pwd&quot;:&quot;123456&quot;}, , )">testProcess(1, 3, {"mobilephone":"190","pwd":"123456"}, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.Recharge" hash-for-method="testProcess(3, 12, {&quot;mobilephone&quot;:&quot;&quot;,&quot;amount&quot;:&quot;10000&quot;}, , )">testProcess(3, 12, {"mobilephone":"","amount":"10000"}, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.Login" hash-for-method="testProcess(2, 11, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;pwd&quot;:&quot;123456&quot;}, , )">testProcess(2, 11, {"mobilephone":"18813989007","pwd":"123456"}, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.Login" hash-for-method="testProcess(2, 8, {&quot;mobilephone&quot;:&quot;&quot;,&quot;pwd&quot;:&quot;123456&quot;}, , )">testProcess(2, 8, {"mobilephone":"","pwd":"123456"}, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.Recharge" hash-for-method="testProcess(3, 13, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;amount&quot;:&quot;&quot;}, , )">testProcess(3, 13, {"mobilephone":"18813989007","amount":""}, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.Recharge" hash-for-method="testProcess(3, 18, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;amount&quot;:&quot;510000&quot;}, , )">testProcess(3, 18, {"mobilephone":"18813989007","amount":"510000"}, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.Recharge" hash-for-method="testProcess(3, 20, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;amount&quot;:&quot;10000&quot;}, , )">testProcess(3, 20, {"mobilephone":"18813989007","amount":"10000"}, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.Login" hash-for-method="testProcess(2, 10, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;pwd&quot;:&quot;1234567&quot;}, , )">testProcess(2, 10, {"mobilephone":"18813989007","pwd":"1234567"}, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.GetToken" hash-for-method="testProcess(4, 21, {
+ &quot;grant_type&quot;: &quot;password&quot;,
+ &quot;username&quot;: &quot;&quot;,
+ &quot;password&quot;: &quot;20036184-e697-400d-a60c-93db5b09d...)">testProcess(4, 21, {
+ "grant_type": "password",
+ "username": "",
+ "password": "20036184-e697-400d-a60c-93db5b09d...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.GetToken" hash-for-method="testProcess(4, 23, {
+ &quot;grant_type&quot;: &quot;password&quot;,
+ &quot;username&quot;: &quot;b01b1892-acce-46a9-b993-4502d62101bd&quot;,
+ &quot;password&quot;...)">testProcess(4, 23, {
+ "grant_type": "password",
+ "username": "b01b1892-acce-46a9-b993-4502d62101bd",
+ "password"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.ResisterMember" hash-for-method="testProcess(5, 28, {
+ &quot;phoneNum&quot;: &quot;${RegisteredMobilephone}&quot;,
+ &quot;appKey&quot;: &quot;5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a...)">testProcess(5, 28, {
+ "phoneNum": "${RegisteredMobilephone}",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.ResisterMember" hash-for-method="testProcess(5, 26, {
+ &quot;phoneNum&quot;: &quot;13795858330&quot;,
+ &quot;appKey&quot;: &quot;5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24&quot;,
+ &quot;headIm...)">testProcess(5, 26, {
+ "phoneNum": "13795858330",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24",
+ "headIm...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.ResisterMember" hash-for-method="testProcess(5, 25, {
+ &quot;phoneNum&quot;: &quot;&quot;,
+ &quot;appKey&quot;: &quot;5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24&quot;,
+ &quot;headImgUrl&quot;: &quot;&quot;,
+...)">testProcess(5, 25, {
+ "phoneNum": "",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24",
+ "headImgUrl": "",
+...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.ResisterMember" hash-for-method="testProcess(5, 27, {
+ &quot;phoneNum&quot;: &quot;${NotBeRegisterMobilephone}&quot;,
+ &quot;appKey&quot;: &quot;5327e39ea24f-549a-4a8d-a2d1-4ee2d78...)">testProcess(5, 27, {
+ "phoneNum": "${NotBeRegisterMobilephone}",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.ResisterMember" hash-for-method="testProcess(5, 29, {
+ &quot;phoneNum&quot;: &quot;${IncorrectMobilephone}&quot;,
+ &quot;appKey&quot;: &quot;5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a2...)">testProcess(5, 29, {
+ "phoneNum": "${IncorrectMobilephone}",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a2...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.auto.test.cases.GetToken" hash-for-method="testProcess(4, 22, {
+ &quot;grant_type&quot;: &quot;password&quot;,
+ &quot;username&quot;: &quot;b01b1892-acce-46a9-b993-4502d62101bd&quot;,
+ &quot;password&quot;...)">testProcess(4, 22, {
+ "grant_type": "password",
+ "username": "b01b1892-acce-46a9-b993-4502d62101bd",
+ "password"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.auto.test.cases.GetToken</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(4, 21, {
+ &quot;grant_type&quot;: &quot;password&quot;,
+ &quot;username&quot;: &quot;&quot;,
+ &quot;password&quot;: &quot;20036184-e697-400d-a60c-93db5b09d...)">
+                  </a> <!-- testProcess(4, 21, {
+ "grant_type": "password",
+ "username": "",
+ "password": "20036184-e697-400d-a60c-93db5b09d...) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(4, 21, {
+ "grant_type": "password",
+ "username": "",
+ "password": "20036184-e697-400d-a60c-93db5b09dbc0",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(4, 23, {
+ &quot;grant_type&quot;: &quot;password&quot;,
+ &quot;username&quot;: &quot;b01b1892-acce-46a9-b993-4502d62101bd&quot;,
+ &quot;password&quot;...)">
+                  </a> <!-- testProcess(4, 23, {
+ "grant_type": "password",
+ "username": "b01b1892-acce-46a9-b993-4502d62101bd",
+ "password"...) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(4, 23, {
+ "grant_type": "password",
+ "username": "b01b1892-acce-46a9-b993-4502d62101bd",
+ "password": "20036184-e697-400d-a60c-93db5b09dbc0",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(4, 22, {
+ &quot;grant_type&quot;: &quot;password&quot;,
+ &quot;username&quot;: &quot;b01b1892-acce-46a9-b993-4502d62101bd&quot;,
+ &quot;password&quot;...)">
+                  </a> <!-- testProcess(4, 22, {
+ "grant_type": "password",
+ "username": "b01b1892-acce-46a9-b993-4502d62101bd",
+ "password"...) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(4, 22, {
+ "grant_type": "password",
+ "username": "b01b1892-acce-46a9-b993-4502d62101bd",
+ "password": "",
+ "scope": "activity",
+ "client_id": "4eb8b718-fd40-40c5-84bb-e58f34ed2f0f",
+ "client_secret": "50c146a7-646e-41c5-b27e-65dfa49ff7ca",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24"
+}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.auto.test.cases.ResisterMember</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(5, 28, {
+ &quot;phoneNum&quot;: &quot;${RegisteredMobilephone}&quot;,
+ &quot;appKey&quot;: &quot;5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a...)">
+                  </a> <!-- testProcess(5, 28, {
+ "phoneNum": "${RegisteredMobilephone}",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a...) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(5, 28, {
+ "phoneNum": "${RegisteredMobilephone}",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24",
+ "headImgUrl": "",
+ "nickname": "",
+ "sex": "1",
+ "openId": "",
+ "access_token": " ${token}"
+}, [{"no":"1","sql":"SELECT nickname,phone_num FROM `general_member_info` WHERE phone_num='${RegisteredMobilephone}'"},{"no":"2","sql":"SELECT count(nickname) FROM `general_member_info` WHERE phone_num='${RegisteredMobilephone}'"}], [{"no":"1","sql":"SELECT nickname,phone_num FROM `general_member_info` WHERE phone_num='${RegisteredMobilephone}'"},{"no":"2","sql":"SELECT count(nickname) FROM `general_member_info` WHERE phone_num='${RegisteredMobilephone}'"}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(5, 26, {
+ &quot;phoneNum&quot;: &quot;13795858330&quot;,
+ &quot;appKey&quot;: &quot;5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24&quot;,
+ &quot;headIm...)">
+                  </a> <!-- testProcess(5, 26, {
+ "phoneNum": "13795858330",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24",
+ "headIm...) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(5, 26, {
+ "phoneNum": "13795858330",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24",
+ "headImgUrl": "",
+ "nickname": "",
+ "sex": "1",
+ "openId": "",
+ "access_token": " ${token}"
+}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(5, 25, {
+ &quot;phoneNum&quot;: &quot;&quot;,
+ &quot;appKey&quot;: &quot;5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24&quot;,
+ &quot;headImgUrl&quot;: &quot;&quot;,
+...)">
+                  </a> <!-- testProcess(5, 25, {
+ "phoneNum": "",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24",
+ "headImgUrl": "",
+...) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(5, 25, {
+ "phoneNum": "",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24",
+ "headImgUrl": "",
+ "nickname": "",
+ "sex": "1",
+ "openId": "",
+ "access_token": " $ {token}"
+}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(5, 27, {
+ &quot;phoneNum&quot;: &quot;${NotBeRegisterMobilephone}&quot;,
+ &quot;appKey&quot;: &quot;5327e39ea24f-549a-4a8d-a2d1-4ee2d78...)">
+                  </a> <!-- testProcess(5, 27, {
+ "phoneNum": "${NotBeRegisterMobilephone}",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78...) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(5, 27, {
+ "phoneNum": "${NotBeRegisterMobilephone}",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24",
+ "headImgUrl": "",
+ "nickname": "",
+ "sex": "1",
+ "openId": "",
+ "access_token": " ${token}"
+}, [{"no":"1","sql":"SELECT nickname,phone_num FROM `general_member_info` WHERE phone_num='${NotBeRegisterMobilephone}'"},{"no":"2","sql":"SELECT count(nickname) FROM `general_member_info` WHERE phone_num='${NotBeRegisterMobilephone}'"}], [{"no":"1","sql":"SELECT nickname,phone_num FROM `general_member_info` WHERE phone_num='${NotBeRegisterMobilephone}'"},{"no":"2","sql":"SELECT count(nickname) FROM `general_member_info` WHERE phone_num='${NotBeRegisterMobilephone}'"}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(5, 29, {
+ &quot;phoneNum&quot;: &quot;${IncorrectMobilephone}&quot;,
+ &quot;appKey&quot;: &quot;5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a2...)">
+                  </a> <!-- testProcess(5, 29, {
+ "phoneNum": "${IncorrectMobilephone}",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a2...) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(5, 29, {
+ "phoneNum": "${IncorrectMobilephone}",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24",
+ "headImgUrl": "",
+ "nickname": "",
+ "sex": "1",
+ "openId": "",
+ "access_token": " ${token}"
+}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.auto.test.cases.Recharge</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(3, 15, {&quot;mobilephone&quot;:&quot;18813989003&quot;,&quot;amount&quot;:&quot;10000&quot;}, , )">
+                  </a> <!-- testProcess(3, 15, {"mobilephone":"18813989003","amount":"10000"}, , ) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(3, 15, {"mobilephone":"18813989003","amount":"10000"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(3, 19, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;amount&quot;:&quot;10000.001&quot;}, , )">
+                  </a> <!-- testProcess(3, 19, {"mobilephone":"18813989007","amount":"10000.001"}, , ) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(3, 19, {"mobilephone":"18813989007","amount":"10000.001"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(3, 16, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;amount&quot;:&quot;≤‚ ‘Œƒ◊÷&quot;}, , )">
+                  </a> <!-- testProcess(3, 16, {"mobilephone":"18813989007","amount":"≤‚ ‘Œƒ◊÷"}, , ) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(3, 16, {"mobilephone":"18813989007","amount":"≤‚ ‘Œƒ◊÷"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(3, 14, {&quot;mobilephone&quot;:&quot;190&quot;,&quot;amount&quot;:&quot;10000&quot;}, , )">
+                  </a> <!-- testProcess(3, 14, {"mobilephone":"190","amount":"10000"}, , ) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(3, 14, {"mobilephone":"190","amount":"10000"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(3, 17, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;amount&quot;:&quot;-1&quot;}, , )">
+                  </a> <!-- testProcess(3, 17, {"mobilephone":"18813989007","amount":"-1"}, , ) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(3, 17, {"mobilephone":"18813989007","amount":"-1"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(3, 12, {&quot;mobilephone&quot;:&quot;&quot;,&quot;amount&quot;:&quot;10000&quot;}, , )">
+                  </a> <!-- testProcess(3, 12, {"mobilephone":"","amount":"10000"}, , ) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(3, 12, {"mobilephone":"","amount":"10000"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(3, 13, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;amount&quot;:&quot;&quot;}, , )">
+                  </a> <!-- testProcess(3, 13, {"mobilephone":"18813989007","amount":""}, , ) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(3, 13, {"mobilephone":"18813989007","amount":""}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(3, 18, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;amount&quot;:&quot;510000&quot;}, , )">
+                  </a> <!-- testProcess(3, 18, {"mobilephone":"18813989007","amount":"510000"}, , ) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(3, 18, {"mobilephone":"18813989007","amount":"510000"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(3, 20, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;amount&quot;:&quot;10000&quot;}, , )">
+                  </a> <!-- testProcess(3, 20, {"mobilephone":"18813989007","amount":"10000"}, , ) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(3, 20, {"mobilephone":"18813989007","amount":"10000"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.auto.test.cases.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(2, 7, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;pwd&quot;:&quot;&quot;}, , )">
+                  </a> <!-- testProcess(2, 7, {"mobilephone":"18813989007","pwd":""}, , ) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(2, 7, {"mobilephone":"18813989007","pwd":""}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(2, 9, {&quot;mobilephone&quot;:&quot;18813989003&quot;,&quot;pwd&quot;:&quot;123456&quot;}, , )">
+                  </a> <!-- testProcess(2, 9, {"mobilephone":"18813989003","pwd":"123456"}, , ) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(2, 9, {"mobilephone":"18813989003","pwd":"123456"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(2, 11, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;pwd&quot;:&quot;123456&quot;}, , )">
+                  </a> <!-- testProcess(2, 11, {"mobilephone":"18813989007","pwd":"123456"}, , ) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(2, 11, {"mobilephone":"18813989007","pwd":"123456"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(2, 8, {&quot;mobilephone&quot;:&quot;&quot;,&quot;pwd&quot;:&quot;123456&quot;}, , )">
+                  </a> <!-- testProcess(2, 8, {"mobilephone":"","pwd":"123456"}, , ) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(2, 8, {"mobilephone":"","pwd":"123456"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(2, 10, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;pwd&quot;:&quot;1234567&quot;}, , )">
+                  </a> <!-- testProcess(2, 10, {"mobilephone":"18813989007","pwd":"1234567"}, , ) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(2, 10, {"mobilephone":"18813989007","pwd":"1234567"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.auto.test.cases.Resgister</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(1, 4, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;pwd&quot;:&quot;12345&quot;}, , )">
+                  </a> <!-- testProcess(1, 4, {"mobilephone":"18813989007","pwd":"12345"}, , ) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(1, 4, {"mobilephone":"18813989007","pwd":"12345"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(1, 1, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;pwd&quot;:&quot;&quot;}, , )">
+                  </a> <!-- testProcess(1, 1, {"mobilephone":"18813989007","pwd":""}, , ) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(1, 1, {"mobilephone":"18813989007","pwd":""}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(1, 2, {&quot;mobilephone&quot;:&quot;&quot;,&quot;pwd&quot;:&quot;123456&quot;}, , )">
+                  </a> <!-- testProcess(1, 2, {"mobilephone":"","pwd":"123456"}, , ) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(1, 2, {"mobilephone":"","pwd":"123456"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(1, 6, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;pwd&quot;:&quot;123456&quot;}, , )">
+                  </a> <!-- testProcess(1, 6, {"mobilephone":"18813989007","pwd":"123456"}, , ) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(1, 6, {"mobilephone":"18813989007","pwd":"123456"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(1, 5, {&quot;mobilephone&quot;:&quot;18813989007&quot;,&quot;pwd&quot;:&quot;123456&quot;}, , )">
+                  </a> <!-- testProcess(1, 5, {"mobilephone":"18813989007","pwd":"123456"}, , ) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(1, 5, {"mobilephone":"18813989007","pwd":"123456"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProcess(1, 3, {&quot;mobilephone&quot;:&quot;190&quot;,&quot;pwd&quot;:&quot;123456&quot;}, , )">
+                  </a> <!-- testProcess(1, 3, {"mobilephone":"190","pwd":"123456"}, , ) -->
+                  <span class="method-name">testProcess</span>
+                  <span class="parameters">(1, 3, {"mobilephone":"190","pwd":"123456"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+        </div> <!-- panel All_Test_Suite -->
+        <div panel-name="test-xml-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\java\Api_Auto_Test\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;All Test Suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;lemon&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.auto.test.cases.Resgister&quot;/&gt;
+      &lt;class name=&quot;com.auto.test.cases.Login&quot;/&gt;
+      &lt;class name=&quot;com.auto.test.cases.Recharge&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- lemon --&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Õ®≥‘µ∫&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.auto.test.cases.GetToken&quot;/&gt;
+      &lt;class name=&quot;com.auto.test.cases.ResisterMember&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Õ®≥‘µ∫ --&gt;
+&lt;/suite&gt; &lt;!-- All Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">lemon (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Õ®≥‘µ∫ (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Test_Suite');
+function tableData_All_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testProcess')
+data.setCell(0, 2, 'com.auto.test.cases.ResisterMember')
+data.setCell(0, 3, 1742);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testProcess')
+data.setCell(1, 2, 'com.auto.test.cases.ResisterMember')
+data.setCell(1, 3, 1530);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testProcess')
+data.setCell(2, 2, 'com.auto.test.cases.Resgister')
+data.setCell(2, 3, 1011);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testProcess')
+data.setCell(3, 2, 'com.auto.test.cases.ResisterMember')
+data.setCell(3, 3, 460);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testProcess')
+data.setCell(4, 2, 'com.auto.test.cases.Recharge')
+data.setCell(4, 3, 110);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testProcess')
+data.setCell(5, 2, 'com.auto.test.cases.Recharge')
+data.setCell(5, 3, 107);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testProcess')
+data.setCell(6, 2, 'com.auto.test.cases.GetToken')
+data.setCell(6, 3, 96);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testProcess')
+data.setCell(7, 2, 'com.auto.test.cases.Login')
+data.setCell(7, 3, 92);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testProcess')
+data.setCell(8, 2, 'com.auto.test.cases.Login')
+data.setCell(8, 3, 92);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testProcess')
+data.setCell(9, 2, 'com.auto.test.cases.Login')
+data.setCell(9, 3, 91);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testProcess')
+data.setCell(10, 2, 'com.auto.test.cases.Recharge')
+data.setCell(10, 3, 87);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testProcess')
+data.setCell(11, 2, 'com.auto.test.cases.Resgister')
+data.setCell(11, 3, 87);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testProcess')
+data.setCell(12, 2, 'com.auto.test.cases.Recharge')
+data.setCell(12, 3, 87);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testProcess')
+data.setCell(13, 2, 'com.auto.test.cases.Resgister')
+data.setCell(13, 3, 86);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testProcess')
+data.setCell(14, 2, 'com.auto.test.cases.Recharge')
+data.setCell(14, 3, 86);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testProcess')
+data.setCell(15, 2, 'com.auto.test.cases.Recharge')
+data.setCell(15, 3, 84);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testProcess')
+data.setCell(16, 2, 'com.auto.test.cases.Recharge')
+data.setCell(16, 3, 82);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testProcess')
+data.setCell(17, 2, 'com.auto.test.cases.Recharge')
+data.setCell(17, 3, 82);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testProcess')
+data.setCell(18, 2, 'com.auto.test.cases.Login')
+data.setCell(18, 3, 81);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testProcess')
+data.setCell(19, 2, 'com.auto.test.cases.Resgister')
+data.setCell(19, 3, 80);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testProcess')
+data.setCell(20, 2, 'com.auto.test.cases.Resgister')
+data.setCell(20, 3, 77);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testProcess')
+data.setCell(21, 2, 'com.auto.test.cases.Resgister')
+data.setCell(21, 3, 76);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testProcess')
+data.setCell(22, 2, 'com.auto.test.cases.Login')
+data.setCell(22, 3, 76);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testProcess')
+data.setCell(23, 2, 'com.auto.test.cases.Recharge')
+data.setCell(23, 3, 74);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testProcess')
+data.setCell(24, 2, 'com.auto.test.cases.GetToken')
+data.setCell(24, 3, 65);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testProcess')
+data.setCell(25, 2, 'com.auto.test.cases.GetToken')
+data.setCell(25, 3, 35);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testProcess')
+data.setCell(26, 2, 'com.auto.test.cases.ResisterMember')
+data.setCell(26, 3, 29);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testProcess')
+data.setCell(27, 2, 'com.auto.test.cases.ResisterMember')
+data.setCell(27, 3, 28);
+window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-All_Test_Suite">
+              </div> <!-- times-div-All_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.auto.test.cases.ResisterMember</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">writeDataToEecel</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.auto.test.cases.Recharge</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">writeDataToEecel</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.auto.test.cases.Resgister</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">writeDataToEecel</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.auto.test.cases.Resgister</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testProcess(1, 1, {"mobilephone":"18813989007","pwd":""}, , )</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(1, 2, {"mobilephone":"","pwd":"123456"}, , )</span>
+                <span class="method-start">1012 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(1, 3, {"mobilephone":"190","pwd":"123456"}, , )</span>
+                <span class="method-start">1089 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(1, 4, {"mobilephone":"18813989007","pwd":"12345"}, , )</span>
+                <span class="method-start">1176 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(1, 5, {"mobilephone":"18813989007","pwd":"123456"}, , )</span>
+                <span class="method-start">1252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(1, 6, {"mobilephone":"18813989007","pwd":"123456"}, , )</span>
+                <span class="method-start">1332 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.auto.test.cases.Login</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testProcess(2, 7, {"mobilephone":"18813989007","pwd":""}, , )</span>
+                <span class="method-start">1419 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(2, 8, {"mobilephone":"","pwd":"123456"}, , )</span>
+                <span class="method-start">1500 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(2, 9, {"mobilephone":"18813989003","pwd":"123456"}, , )</span>
+                <span class="method-start">1576 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(2, 10, {"mobilephone":"18813989007","pwd":"1234567"}, , )</span>
+                <span class="method-start">1668 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(2, 11, {"mobilephone":"18813989007","pwd":"123456"}, , )</span>
+                <span class="method-start">1759 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.auto.test.cases.Recharge</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testProcess(3, 12, {"mobilephone":"","amount":"10000"}, , )</span>
+                <span class="method-start">1852 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(3, 13, {"mobilephone":"18813989007","amount":""}, , )</span>
+                <span class="method-start">1939 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(3, 14, {"mobilephone":"190","amount":"10000"}, , )</span>
+                <span class="method-start">2021 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(3, 15, {"mobilephone":"18813989003","amount":"10000"}, , )</span>
+                <span class="method-start">2103 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(3, 16, {"mobilephone":"18813989007","amount":"≤‚ ‘Œƒ◊÷"}, , )</span>
+                <span class="method-start">2211 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(3, 17, {"mobilephone":"18813989007","amount":"-1"}, , )</span>
+                <span class="method-start">2298 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(3, 18, {"mobilephone":"18813989007","amount":"510000"}, , )</span>
+                <span class="method-start">2384 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(3, 19, {"mobilephone":"18813989007","amount":"10000.001"}, , )</span>
+                <span class="method-start">2468 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(3, 20, {"mobilephone":"18813989007","amount":"10000"}, , )</span>
+                <span class="method-start">2542 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.auto.test.cases.GetToken</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testProcess(4, 21, {
+ "grant_type": "password",
+ "username": "",
+ "password": "20036184-e697-400d-a60c-93db5b09d...)</span>
+                <span class="method-start">2665 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(4, 22, {
+ "grant_type": "password",
+ "username": "b01b1892-acce-46a9-b993-4502d62101bd",
+ "password"...)</span>
+                <span class="method-start">2730 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(4, 23, {
+ "grant_type": "password",
+ "username": "b01b1892-acce-46a9-b993-4502d62101bd",
+ "password"...)</span>
+                <span class="method-start">2766 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.auto.test.cases.ResisterMember</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testProcess(5, 25, {
+ "phoneNum": "",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24",
+ "headImgUrl": "",
+...)</span>
+                <span class="method-start">2863 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(5, 26, {
+ "phoneNum": "13795858330",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a24",
+ "headIm...)</span>
+                <span class="method-start">2891 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(5, 27, {
+ "phoneNum": "${NotBeRegisterMobilephone}",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78...)</span>
+                <span class="method-start">3351 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(5, 28, {
+ "phoneNum": "${RegisteredMobilephone}",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a...)</span>
+                <span class="method-start">5093 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProcess(5, 29, {
+ "phoneNum": "${IncorrectMobilephone}",
+ "appKey": "5327e39ea24f-549a-4a8d-a2d1-4ee2d78e2a2...)</span>
+                <span class="method-start">6623 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.auto.test.cases.GetToken</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">writeDataToEecel</span>
+                <span class="method-start">6657 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

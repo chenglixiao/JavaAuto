@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [All Test Suite]">
+  <parameter name="DocumentRoot" value="C:\\Users\\Administrator\\.jenkins\\workspace\\Web_Auto_Test\\target\\surefire-reports"/>
+  <parameter name="host" value="http://localhost"/>
+  <parameter name="browserType" value="firefox"/>
+  <listeners>
+    <listener class-name="com.web.auto.report.CustomListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test name="register(failed)">
+    <classes>
+      <class name="com.web.auto.cases.RegisterCase">
+        <methods>
+          <include name="reverseRegister" invocation-numbers="6"/>
+          <include name="launchBrowser"/>
+          <include name="positiveRegister" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.web.auto.cases.RegisterCase -->
+    </classes>
+  </test> <!-- register(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="海谱通吃岛">
+    <listeners >
+        <!--实现一个监听器，监听用例执行状态-->
+        <listener class-name="com.web.auto.report.CustomListener"></listener>
+        <!--reportng报表生成类-->
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+    </listeners>
+    <parameter name="browserType" value="firefox"></parameter>
+    <parameter name="DocumentRoot" value="C:\\Users\\Administrator\\.jenkins\\workspace\\Web_Auto_Test\\target\\surefire-reports"></parameter>
+    <parameter name="username" value="test0508"></parameter>
+    <parameter name="passwd" value="t123456789"></parameter>
+   <!-- <test thread-count="20" verbose="5" parallel="methods" name="登录">
+        <classes>
+            <class name="com.web.auto.cases.LoginCase"></class>
+        </classes>
+    </test>-->
+    <test thread-count="20" verbose="5" parallel="methods" name="随行红包">
+        <groups>
+            <define name ="all">
+                <include name="creatActivity"/>
+            </define>
+            <run>
+                <include name="all"/>
+                <exclude name="a"/>
+            </run>
+        </groups>
+       <!-- <classes>
+            <class name="com.web.auto.cases.WalkingRedEnvelope">
+            </class>
+        </classes>-->
+    </test>
+</suite>
+
+
